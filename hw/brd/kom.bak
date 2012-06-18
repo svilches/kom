@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 18 Jun 2012 04:32:58 PM CEST
+EESchema Schematic File Version 2  date Mon 18 Jun 2012 09:59:15 PM CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -33,6 +33,7 @@ LIBS:40xx
 LIBS:dips-s
 LIBS:kom
 LIBS:xbee_r1
+LIBS:arduino_shieldsNCL
 LIBS:o_device
 LIBS:stepper drivers
 LIBS:kom-cache

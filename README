@@ -1,2 +1,9 @@
+CONTENT
 kom project source files for both hardware and software
 Will include all the source files and documentation for both hardware and software.
+
+GIT RESOURCES
+- Starting point:
+	http://www.gitguys.com/topics/skip-the-intro/
+- gitg, a graphical tool to see what you are doing to the repository
+	sudo apt-get install gitg 

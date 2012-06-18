@@ -1,4 +1,4 @@
-update=Mon 18 Jun 2012 04:34:00 PM CEST
+update=Mon 18 Jun 2012 09:59:13 PM CEST
 version=1
 last_client=eeschema
 [cvpcb]
@@ -40,7 +40,7 @@ LibName10=pga_sockets
 LibName11=valves
 [eeschema]
 version=1
-LibDir=
+LibDir=/home/svilches/workspace/kom/hw/brd/lib
 NetFmtName=
 HPGLSpd=20
 HPGLDm=15
@@ -80,9 +80,10 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=/home/svilches/Tech/devProjects/kom/hw/brd/lib/40xx/40xx
-LibName32=/home/svilches/Tech/devProjects/kom/hw/brd/lib/dipSwitch/dips-s
-LibName33=/home/svilches/Tech/devProjects/kom/hw/brd/lib/komLib/kom
-LibName34=/home/svilches/Tech/devProjects/kom/hw/brd/lib/xbee_r1/xbee_r1
-LibName35=/home/svilches/Tech/devProjects/kom/hw/brd/lib/o_device
-LibName36=/home/svilches/Tech/devProjects/kom/hw/brd/lib/stepper drivers
+LibName31=40xx/40xx
+LibName32=dipSwitch/dips-s
+LibName33=komLib/kom
+LibName34=xbee_r1/xbee_r1
+LibName35=arduino_shieldsNCL
+LibName36=o_device
+LibName37=stepper drivers

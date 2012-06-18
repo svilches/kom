@@ -1,0 +1,261 @@
+EESchema Schematic File Version 2  date Sun 15 Apr 2012 11:49:24 PM CEST
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:kom
+LIBS:pwrProtection-cache
+EELAYER 25  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 1 1
+Title "noname.sch"
+Date "15 apr 2012"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L GND #PWR01
+U 1 1 4F8B3F97
+P 3300 1300
+F 0 "#PWR01" H 3300 1300 30  0001 C CNN
+F 1 "GND" H 3300 1230 30  0001 C CNN
+	1    3300 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG02
+U 1 1 4F8B3F8F
+P 3300 1300
+F 0 "#FLG02" H 3300 1395 30  0001 C CNN
+F 1 "PWR_FLAG" H 3300 1480 30  0000 C CNN
+	1    3300 1300
+	1    0    0    -1  
+$EndComp
+Connection ~ 3100 2800
+Connection ~ 3100 1800
+Connection ~ 6000 1850
+Connection ~ 3100 2300
+Connection ~ 4300 1950
+Connection ~ 4300 1800
+Connection ~ 4900 1800
+Wire Wire Line
+	6250 1850 6000 1850
+Wire Wire Line
+	2750 1800 4900 1800
+Connection ~ 4900 1500
+Wire Wire Line
+	4900 1550 4900 1200
+Wire Wire Line
+	4900 1200 5200 1200
+Wire Wire Line
+	4900 1800 4900 1650
+Wire Wire Line
+	4100 2300 4300 2300
+Wire Wire Line
+	4300 2300 4300 1950
+Wire Wire Line
+	3400 1950 3400 1800
+Connection ~ 3400 1800
+Wire Wire Line
+	5700 1200 6000 1200
+Wire Wire Line
+	6000 1200 6000 1600
+Wire Wire Line
+	4300 1950 4900 1950
+Wire Wire Line
+	4300 1400 4200 1400
+Wire Wire Line
+	4200 1400 4200 1450
+Wire Wire Line
+	2750 1300 3000 1300
+Connection ~ 2750 1300
+$Comp
+L PWR_FLAG #FLG03
+U 1 1 4F8B3F55
+P 3000 1300
+F 0 "#FLG03" H 3000 1395 30  0001 C CNN
+F 1 "PWR_FLAG" H 3000 1480 30  0000 C CNN
+	1    3000 1300
+	1    0    0    -1  
+$EndComp
+Text Label 6200 1850 0    60   ~ 0
+5V
+$Comp
+L GND #PWR04
+U 1 1 4F8B3E71
+P 6000 2250
+F 0 "#PWR04" H 6000 2250 30  0001 C CNN
+F 1 "GND" H 6000 2180 30  0001 C CNN
+	1    6000 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C2
+U 1 1 4F8B3E5D
+P 6000 2050
+F 0 "C2" H 6050 2150 50  0000 L CNN
+F 1 "100uF(min)" H 6050 1950 50  0000 L CNN
+	1    6000 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 4F8B3E4F
+P 4200 1450
+F 0 "#PWR05" H 4200 1450 30  0001 C CNN
+F 1 "GND" H 4200 1380 30  0001 C CNN
+	1    4200 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1
+U 1 1 4F8B3E2D
+P 4300 1600
+F 0 "C1" H 4350 1700 50  0000 L CNN
+F 1 "100uF(min)" H 4350 1500 50  0000 L CNN
+	1    4300 1600
+	1    0    0    -1  
+$EndComp
+Text Notes 4500 1050 0    50   ~ 0
+Minimize track length between pins 1 and 5!!!
+$Comp
+L R R4
+U 1 1 4F8B3D8F
+P 5450 1200
+F 0 "R4" V 5530 1200 50  0000 C CNN
+F 1 "348" V 5450 1200 50  0000 C CNN
+	1    5450 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR06
+U 1 1 4F8B3D78
+P 4900 1550
+F 0 "#PWR06" H 4900 1550 30  0001 C CNN
+F 1 "GND" H 4900 1480 30  0001 C CNN
+	1    4900 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR07
+U 1 1 4F8B3D4D
+P 3600 2800
+F 0 "#PWR07" H 3600 2800 30  0001 C CNN
+F 1 "GND" H 3600 2730 30  0001 C CNN
+	1    3600 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR08
+U 1 1 4F8B3D48
+P 3100 2800
+F 0 "#PWR08" H 3100 2800 30  0001 C CNN
+F 1 "GND" H 3100 2730 30  0001 C CNN
+	1    3100 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L PTH08000WAZT U2
+U 1 1 4F8B3D3E
+P 5450 1650
+F 0 "U2" H 5450 1250 60  0000 C CNN
+F 1 "PTH08000WAZT" H 5450 1900 60  0000 C CNN
+	1    5450 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 4F8B3B89
+P 4050 1950
+F 0 "R3" V 4130 1950 50  0000 C CNN
+F 1 "1k" V 4050 1950 50  0000 C CNN
+	1    4050 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D1
+U 1 1 4F8B3B7C
+P 3600 1950
+F 0 "D1" H 3600 2050 50  0000 C CNN
+F 1 "LED" H 3600 1850 50  0000 C CNN
+	1    3600 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L TC54 U1
+U 1 1 4F8B3A7C
+P 3600 2300
+F 0 "U1" H 3750 2050 60  0000 C CNN
+F 1 "TC54" H 3600 2400 60  0000 C CNN
+	1    3600 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 4F8B3876
+P 3100 2550
+F 0 "R2" V 3180 2550 50  0000 C CNN
+F 1 "10K" V 3100 2550 50  0000 C CNN
+	1    3100 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 4F8B386E
+P 3100 2050
+F 0 "R1" V 3180 2050 50  0000 C CNN
+F 1 "15K" V 3100 2050 50  0000 C CNN
+	1    3100 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L +BATT #PWR09
+U 1 1 4F6F3085
+P 2750 1300
+F 0 "#PWR09" H 2750 1250 20  0001 C CNN
+F 1 "+BATT" H 2750 1400 30  0000 C CNN
+	1    2750 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L FUSE F1
+U 1 1 4F6F2DBF
+P 2750 1550
+F 0 "F1" H 2850 1600 40  0000 C CNN
+F 1 "FUSE" H 2650 1500 40  0000 C CNN
+	1    2750 1550
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC

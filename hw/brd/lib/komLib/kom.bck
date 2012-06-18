@@ -1,0 +1,19 @@
+EESchema-DOCLIB  Version 2.0  Date: Tue 05 Jun 2012 02:12:20 PM CEST
+#
+$CMP BLUETOOTHMOD_DX
+D DealExtreme Bluetooth Module
+$ENDCMP
+#
+$CMP PTH08000WAZT
+D 2.25A DC-DC Converter
+K DC-DC, Converter
+F /media/mmedia/workspace/openmrl/hardware/kom/doc/datasheets/PTH08000W.pdf
+$ENDCMP
+#
+$CMP TL431
+D Adjustable Voltage Reference
+K zener diode reference
+F /home/svilches/kom/doc/datasheets/vRef.pdf
+$ENDCMP
+#
+#End Doc Library

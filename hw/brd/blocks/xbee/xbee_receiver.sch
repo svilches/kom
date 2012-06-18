@@ -1,0 +1,239 @@
+EESchema Schematic File Version 2  date Fri 30 Mar 2012 11:44:24 AM CEST
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:xbee-cache
+EELAYER 25  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 1 1
+Title "noname.sch"
+Date "30 mar 2012"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	4200 2400 4100 2400
+Wire Wire Line
+	4100 2400 4100 1900
+Wire Wire Line
+	7500 2700 7850 2700
+Wire Wire Line
+	6600 2900 6300 2900
+Wire Wire Line
+	7000 2900 7200 2900
+Wire Wire Line
+	3000 3500 3200 3500
+Wire Wire Line
+	3200 3500 3200 2600
+Wire Wire Line
+	3200 2600 4200 2600
+Wire Wire Line
+	3300 2800 3300 3600
+Wire Wire Line
+	4200 4200 4200 4250
+Wire Wire Line
+	3300 3600 3000 3600
+Wire Wire Line
+	7500 3100 7500 3400
+Wire Wire Line
+	7500 3400 7000 3400
+Wire Wire Line
+	7250 3400 7250 3450
+Connection ~ 7250 3400
+Wire Wire Line
+	7850 2700 7850 1600
+Wire Wire Line
+	7850 1600 3100 1600
+Wire Wire Line
+	3100 1600 3100 3350
+Wire Wire Line
+	3100 3350 3000 3350
+$Comp
+L GND #PWR5
+U 1 1 4F758013
+P 3700 2200
+F 0 "#PWR5" H 3700 2200 30  0001 C CNN
+F 1 "GND" H 3700 2130 30  0001 C CNN
+	1    3700 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR10
+U 1 1 4F757FBF
+P 7250 3450
+F 0 "#PWR10" H 7250 3450 30  0001 C CNN
+F 1 "GND" H 7250 3380 30  0001 C CNN
+	1    7250 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R 10k1
+U 1 1 4F757FB2
+P 7000 3150
+F 0 "10k1" V 7080 3150 50  0000 C CNN
+F 1 "R" V 7000 3150 50  0000 C CNN
+	1    7000 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L NPN BC548
+U 1 1 4F757FAC
+P 7400 2900
+F 0 "BC548" H 7400 2750 50  0000 R CNN
+F 1 "NPN" H 7400 3050 50  0000 R CNN
+	1    7400 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1
+U 1 1 4F757F9A
+P 6800 2900
+F 0 "C1" H 6850 3000 50  0000 L CNN
+F 1 "0.1u" H 6850 2800 50  0000 L CNN
+	1    6800 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR6
+U 1 1 4F757F4C
+P 3750 3100
+F 0 "#PWR6" H 3750 3100 30  0001 C CNN
+F 1 "GND" H 3750 3030 30  0001 C CNN
+	1    3750 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74LS125 U2
+U 1 1 4F757F19
+P 3750 2800
+F 0 "U2" H 3750 2900 50  0000 L BNN
+F 1 "74LS125" H 3800 2650 40  0000 L TNN
+	1    3750 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR9
+U 1 1 4F757E63
+P 4200 4250
+F 0 "#PWR9" H 4200 4250 30  0001 C CNN
+F 1 "GND" H 4200 4180 30  0001 C CNN
+	1    4200 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR2
+U 1 1 4F757E5F
+P 1100 4100
+F 0 "#PWR2" H 1100 4100 30  0001 C CNN
+F 1 "GND" H 1100 4030 30  0001 C CNN
+	1    1100 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR3
+U 1 1 4F757E5C
+P 1100 4200
+F 0 "#PWR3" H 1100 4200 30  0001 C CNN
+F 1 "GND" H 1100 4130 30  0001 C CNN
+	1    1100 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR1
+U 1 1 4F757E54
+P 1100 1900
+F 0 "#PWR1" H 1100 1990 20  0001 C CNN
+F 1 "+5V" H 1100 1990 30  0000 C CNN
+	1    1100 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR8
+U 1 1 4F757E49
+P 4200 2400
+F 0 "#PWR8" H 4200 2360 30  0001 C CNN
+F 1 "+3.3V" H 4200 2510 30  0000 C CNN
+	1    4200 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR4
+U 1 1 4F757E40
+P 3300 1900
+F 0 "#PWR4" H 3300 1990 20  0001 C CNN
+F 1 "+5V" H 3300 1990 30  0000 C CNN
+	1    3300 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR7
+U 1 1 4F757E35
+P 4100 1900
+F 0 "#PWR7" H 4100 1860 30  0001 C CNN
+F 1 "+3.3V" H 4100 2010 30  0000 C CNN
+	1    4100 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L XBEE M1
+U 1 1 4F757E27
+P 5200 3000
+F 0 "M1" H 4400 4300 50  0000 L BNN
+F 1 "XBEE" H 4400 1600 50  0000 L BNN
+F 2 "xbee_r1-XBEE" H 5200 3150 50  0001 C CNN
+	1    5200 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LM7805 U1
+U 1 1 4F757E14
+P 3700 1950
+F 0 "U1" H 3850 1754 60  0000 C CNN
+F 1 "LM7833" H 3700 2150 60  0000 C CNN
+	1    3700 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L ATMEGA328-P IC1
+U 1 1 4F757DFD
+P 2000 3000
+F 0 "IC1" H 1300 4250 50  0000 L BNN
+F 1 "ATMEGA328-P" H 2250 1600 50  0000 L BNN
+F 2 "DIL28" H 1400 1650 50  0001 C CNN
+	1    2000 3000
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

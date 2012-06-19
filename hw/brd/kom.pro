@@ -1,4 +1,4 @@
-update=Mon 18 Jun 2012 09:59:13 PM CEST
+update=Tue 19 Jun 2012 11:57:29 PM CEST
 version=1
 last_client=eeschema
 [cvpcb]
@@ -87,3 +87,4 @@ LibName34=xbee_r1/xbee_r1
 LibName35=arduino_shieldsNCL
 LibName36=o_device
 LibName37=stepper drivers
+LibName38=LED_RGB/LED_RGB

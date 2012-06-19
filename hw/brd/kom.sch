@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 18 Jun 2012 10:35:46 PM CEST
+EESchema Schematic File Version 2  date Tue 19 Jun 2012 11:13:47 PM CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -43,7 +43,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "KomProject Robot"
-Date "18 jun 2012"
+Date "19 jun 2012"
 Rev ""
 Comp "Universidad Carlos III"
 Comment1 ""
@@ -509,7 +509,7 @@ F 1 "+5V" H 7550 1390 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 7400 1950 3    58   ~ 0
-5V_RGB
+5V_IR
 Text Label 7500 1950 3    58   ~ 0
 5V_Encoders
 Text Label 7600 1950 3    58   ~ 0
@@ -955,6 +955,228 @@ F 1 "GND" H 10650 6180 30  0001 C CNN
 $EndComp
 Text Label 10650 5250 1    58   ~ 0
 5V_Encoders
+Text Label 11100 2500 0    58   ~ 0
+ENC_LA
+Text Label 11100 2600 0    58   ~ 0
+ENC_LB
+Text Label 11100 2700 0    58   ~ 0
+ENC_RA
+Text Label 11100 2800 0    58   ~ 0
+ENC_RB
+Text Label 10950 5800 0    58   ~ 0
+ENC_LA
+$Comp
+L OPTO_NPN Q?
+U 1 1 4FD766B5
+P 11650 6000
+F 0 "Q?" H 11800 6050 50  0000 L CNN
+F 1 "PT480F" H 11800 5900 50  0000 L CNN
+	1    11650 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FD766BB
+P 11350 6000
+F 0 "D?" H 11350 6100 50  0000 C CNN
+F 1 "IR_LED" H 11350 5900 50  0000 C CNN
+	1    11350 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 4FD766C1
+P 11350 5550
+F 0 "R?" V 11430 5550 50  0000 C CNN
+F 1 "220" V 11350 5550 50  0000 C CNN
+	1    11350 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 4FD766C7
+P 11750 5550
+F 0 "R?" V 11830 5550 50  0000 C CNN
+F 1 "2.2K" V 11750 5550 50  0000 C CNN
+	1    11750 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4FD766CD
+P 11550 6250
+F 0 "#PWR?" H 11550 6250 30  0001 C CNN
+F 1 "GND" H 11550 6180 30  0001 C CNN
+	1    11550 6250
+	1    0    0    -1  
+$EndComp
+Text Label 11550 5250 1    58   ~ 0
+5V_Encoders
+Text Label 11850 5800 0    58   ~ 0
+ENC_LB
+$Comp
+L OPTO_NPN Q?
+U 1 1 4FD766DE
+P 12550 6000
+F 0 "Q?" H 12700 6050 50  0000 L CNN
+F 1 "PT480F" H 12700 5900 50  0000 L CNN
+	1    12550 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FD766E4
+P 12250 6000
+F 0 "D?" H 12250 6100 50  0000 C CNN
+F 1 "IR_LED" H 12250 5900 50  0000 C CNN
+	1    12250 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 4FD766EA
+P 12250 5550
+F 0 "R?" V 12330 5550 50  0000 C CNN
+F 1 "220" V 12250 5550 50  0000 C CNN
+	1    12250 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 4FD766F0
+P 12650 5550
+F 0 "R?" V 12730 5550 50  0000 C CNN
+F 1 "2.2K" V 12650 5550 50  0000 C CNN
+	1    12650 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4FD766F6
+P 12450 6250
+F 0 "#PWR?" H 12450 6250 30  0001 C CNN
+F 1 "GND" H 12450 6180 30  0001 C CNN
+	1    12450 6250
+	1    0    0    -1  
+$EndComp
+Text Label 12450 5250 1    58   ~ 0
+5V_Encoders
+Text Label 12750 5800 0    58   ~ 0
+ENC_RA
+$Comp
+L OPTO_NPN Q?
+U 1 1 4FD76707
+P 13450 6000
+F 0 "Q?" H 13600 6050 50  0000 L CNN
+F 1 "PT480F" H 13600 5900 50  0000 L CNN
+	1    13450 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FD7670D
+P 13150 6000
+F 0 "D?" H 13150 6100 50  0000 C CNN
+F 1 "IR_LED" H 13150 5900 50  0000 C CNN
+	1    13150 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 4FD76713
+P 13150 5550
+F 0 "R?" V 13230 5550 50  0000 C CNN
+F 1 "220" V 13150 5550 50  0000 C CNN
+	1    13150 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 4FD76719
+P 13550 5550
+F 0 "R?" V 13630 5550 50  0000 C CNN
+F 1 "2.2K" V 13550 5550 50  0000 C CNN
+	1    13550 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4FD7671F
+P 13350 6250
+F 0 "#PWR?" H 13350 6250 30  0001 C CNN
+F 1 "GND" H 13350 6180 30  0001 C CNN
+	1    13350 6250
+	1    0    0    -1  
+$EndComp
+Text Label 13350 5250 1    58   ~ 0
+5V_Encoders
+Text Label 13650 5800 0    58   ~ 0
+ENC_RB
+$Comp
+L LED D?
+U 1 1 4FE0E9A1
+P 13650 2500
+F 0 "D?" H 13650 2600 50  0000 C CNN
+F 1 "IR_LD271" H 13650 2400 50  0000 C CNN
+	1    13650 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE0E9C5
+P 13650 2900
+F 0 "D?" H 13650 3000 50  0000 C CNN
+F 1 "IR_LD271" H 13650 2800 50  0000 C CNN
+	1    13650 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE0E9CB
+P 13650 3300
+F 0 "D?" H 13650 3400 50  0000 C CNN
+F 1 "IR_LD271" H 13650 3200 50  0000 C CNN
+	1    13650 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 4FE0E9EA
+P 13650 2050
+F 0 "R?" V 13730 2050 50  0000 C CNN
+F 1 "10" V 13650 2050 50  0000 C CNN
+	1    13650 2050
+	1    0    0    -1  
+$EndComp
+Text Label 13650 1700 1    58   ~ 0
+5V_IR
+$Comp
+L NPN Q?
+U 1 1 4FE0EBB5
+P 13550 3700
+F 0 "Q?" H 13550 3550 50  0000 R CNN
+F 1 "BC547" H 13550 3850 50  0000 R CNN
+	1    13550 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4FE0EBC4
+P 13650 3900
+F 0 "#PWR?" H 13650 3900 30  0001 C CNN
+F 1 "GND" H 13650 3830 30  0001 C CNN
+	1    13650 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 4FE0EBD3
+P 13100 3700
+F 0 "R?" V 13180 3700 50  0000 C CNN
+F 1 "1K" V 13100 3700 50  0000 C CNN
+	1    13100 3700
+	0    -1   -1   0   
+$EndComp
 Connection ~ 3750 3050
 Connection ~ 3750 2050
 Connection ~ 6650 2100
@@ -1297,63 +1519,6 @@ Wire Wire Line
 	11000 3000 11100 3000
 Wire Wire Line
 	11000 3100 11100 3100
-Text Label 11100 2500 0    58   ~ 0
-ENC_LA
-Text Label 11100 2600 0    58   ~ 0
-ENC_LB
-Text Label 11100 2700 0    58   ~ 0
-ENC_RA
-Text Label 11100 2800 0    58   ~ 0
-ENC_RB
-Text Label 10950 5800 0    58   ~ 0
-ENC_LA
-$Comp
-L OPTO_NPN Q?
-U 1 1 4FD766B5
-P 11650 6000
-F 0 "Q?" H 11800 6050 50  0000 L CNN
-F 1 "PT480F" H 11800 5900 50  0000 L CNN
-	1    11650 6000
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED D?
-U 1 1 4FD766BB
-P 11350 6000
-F 0 "D?" H 11350 6100 50  0000 C CNN
-F 1 "IR_LED" H 11350 5900 50  0000 C CNN
-	1    11350 6000
-	0    1    1    0   
-$EndComp
-$Comp
-L R R?
-U 1 1 4FD766C1
-P 11350 5550
-F 0 "R?" V 11430 5550 50  0000 C CNN
-F 1 "220" V 11350 5550 50  0000 C CNN
-	1    11350 5550
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R?
-U 1 1 4FD766C7
-P 11750 5550
-F 0 "R?" V 11830 5550 50  0000 C CNN
-F 1 "2.2K" V 11750 5550 50  0000 C CNN
-	1    11750 5550
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 4FD766CD
-P 11550 6250
-F 0 "#PWR?" H 11550 6250 30  0001 C CNN
-F 1 "GND" H 11550 6180 30  0001 C CNN
-	1    11550 6250
-	1    0    0    -1  
-$EndComp
-Text Label 11550 5250 1    58   ~ 0
-5V_Encoders
 Wire Wire Line
 	11350 6200 11750 6200
 Wire Wire Line
@@ -1368,55 +1533,6 @@ Connection ~ 11550 5300
 Connection ~ 11550 5300
 Wire Wire Line
 	11750 5800 11850 5800
-Text Label 11850 5800 0    58   ~ 0
-ENC_LB
-$Comp
-L OPTO_NPN Q?
-U 1 1 4FD766DE
-P 12550 6000
-F 0 "Q?" H 12700 6050 50  0000 L CNN
-F 1 "PT480F" H 12700 5900 50  0000 L CNN
-	1    12550 6000
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED D?
-U 1 1 4FD766E4
-P 12250 6000
-F 0 "D?" H 12250 6100 50  0000 C CNN
-F 1 "IR_LED" H 12250 5900 50  0000 C CNN
-	1    12250 6000
-	0    1    1    0   
-$EndComp
-$Comp
-L R R?
-U 1 1 4FD766EA
-P 12250 5550
-F 0 "R?" V 12330 5550 50  0000 C CNN
-F 1 "220" V 12250 5550 50  0000 C CNN
-	1    12250 5550
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R?
-U 1 1 4FD766F0
-P 12650 5550
-F 0 "R?" V 12730 5550 50  0000 C CNN
-F 1 "2.2K" V 12650 5550 50  0000 C CNN
-	1    12650 5550
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 4FD766F6
-P 12450 6250
-F 0 "#PWR?" H 12450 6250 30  0001 C CNN
-F 1 "GND" H 12450 6180 30  0001 C CNN
-	1    12450 6250
-	1    0    0    -1  
-$EndComp
-Text Label 12450 5250 1    58   ~ 0
-5V_Encoders
 Wire Wire Line
 	12250 6200 12650 6200
 Wire Wire Line
@@ -1431,55 +1547,6 @@ Connection ~ 12450 5300
 Connection ~ 12450 5300
 Wire Wire Line
 	12650 5800 12750 5800
-Text Label 12750 5800 0    58   ~ 0
-ENC_RA
-$Comp
-L OPTO_NPN Q?
-U 1 1 4FD76707
-P 13450 6000
-F 0 "Q?" H 13600 6050 50  0000 L CNN
-F 1 "PT480F" H 13600 5900 50  0000 L CNN
-	1    13450 6000
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED D?
-U 1 1 4FD7670D
-P 13150 6000
-F 0 "D?" H 13150 6100 50  0000 C CNN
-F 1 "IR_LED" H 13150 5900 50  0000 C CNN
-	1    13150 6000
-	0    1    1    0   
-$EndComp
-$Comp
-L R R?
-U 1 1 4FD76713
-P 13150 5550
-F 0 "R?" V 13230 5550 50  0000 C CNN
-F 1 "220" V 13150 5550 50  0000 C CNN
-	1    13150 5550
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R?
-U 1 1 4FD76719
-P 13550 5550
-F 0 "R?" V 13630 5550 50  0000 C CNN
-F 1 "2.2K" V 13550 5550 50  0000 C CNN
-	1    13550 5550
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 4FD7671F
-P 13350 6250
-F 0 "#PWR?" H 13350 6250 30  0001 C CNN
-F 1 "GND" H 13350 6180 30  0001 C CNN
-	1    13350 6250
-	1    0    0    -1  
-$EndComp
-Text Label 13350 5250 1    58   ~ 0
-5V_Encoders
 Wire Wire Line
 	13150 6200 13550 6200
 Wire Wire Line
@@ -1494,6 +1561,10 @@ Connection ~ 13350 5300
 Connection ~ 13350 5300
 Wire Wire Line
 	13550 5800 13650 5800
-Text Label 13650 5800 0    58   ~ 0
-ENC_RB
+Wire Wire Line
+	13650 1800 13650 1700
+Wire Wire Line
+	12850 3700 12750 3700
+Text Label 12750 3700 2    58   ~ 0
+D5
 $EndSCHEMATC

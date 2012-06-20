@@ -1,4 +1,4 @@
-update=Wed 20 Jun 2012 12:37:50 AM CEST
+update=Thu 21 Jun 2012 12:14:29 AM CEST
 version=1
 last_client=eeschema
 [cvpcb]
@@ -90,3 +90,5 @@ LibName37=stepper drivers
 LibName38=LED_RGB/LED_RGB
 LibName39=ultrasonicmodule_sdm-io
 LibName40=gp2y0a21/gp2y0a21
+LibName41=gpio_4pin
+LibName42=monolito-1.2/Monolito-1_2

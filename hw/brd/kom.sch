@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 20 Jun 2012 12:56:44 AM CEST
+EESchema Schematic File Version 2  date Wed 20 Jun 2012 09:28:04 PM CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -46,7 +46,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "KomProject Robot"
-Date "19 jun 2012"
+Date "20 jun 2012"
 Rev ""
 Comp "Universidad Carlos III"
 Comment1 ""
@@ -1138,7 +1138,7 @@ L R R?
 U 1 1 4FE0E9EA
 P 15700 5050
 F 0 "R?" V 15780 5050 50  0000 C CNN
-F 1 "10" V 15700 5050 50  0000 C CNN
+F 1 "15" V 15700 5050 50  0000 C CNN
 	1    15700 5050
 	1    0    0    -1  
 $EndComp
@@ -1224,11 +1224,11 @@ F 1 "+5V" H 13950 5590 30  0000 C CNN
 	1    13950 5500
 	1    0    0    -1  
 $EndComp
-Text Label 13800 6450 3    58   ~ 0
+Text Label 13800 6950 3    58   ~ 0
 LED_GND_B
-Text Label 13950 6450 3    58   ~ 0
+Text Label 13950 6950 3    58   ~ 0
 LED_GND_G
-Text Label 14100 6450 3    58   ~ 0
+Text Label 14100 6950 3    58   ~ 0
 LED_GND_R
 Text Notes 9250 7750 0    58   ~ 0
 Motor Control and Encoders
@@ -1880,11 +1880,11 @@ Wire Notes Line
 Wire Notes Line
 	12750 4050 16000 4050
 Wire Notes Line
-	16000 4050 16000 7050
+	16000 4050 16000 7600
 Wire Notes Line
-	16000 7050 12750 7050
+	16000 7600 12750 7600
 Wire Notes Line
-	12750 7050 12750 4050
+	12750 7600 12750 4050
 Wire Wire Line
 	10500 1750 10500 1650
 Wire Wire Line
@@ -1933,4 +1933,31 @@ Wire Notes Line
 	8200 3700 8200 650 
 Text Notes 8250 600  0    58   ~ 0
 Sensors
+$Comp
+L R R?
+U 1 1 4FE22376
+P 13800 6700
+F 0 "R?" V 13880 6700 50  0000 C CNN
+F 1 "180" V 13800 6700 50  0000 C CNN
+	1    13800 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 4FE22383
+P 13950 6700
+F 0 "R?" V 14030 6700 50  0000 C CNN
+F 1 "180" V 13950 6700 50  0000 C CNN
+	1    13950 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 4FE22389
+P 14100 6700
+F 0 "R?" V 14180 6700 50  0000 C CNN
+F 1 "120" V 14100 6700 50  0000 C CNN
+	1    14100 6700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

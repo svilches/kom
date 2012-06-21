@@ -1,8 +1,13 @@
-eeschema (2011-nov-30)-testing  >> Creation date: Thu 21 Jun 2012 01:42:50 AM CEST
+eeschema (2011-nov-30)-testing  >> Creation date: Thu 21 Jun 2012 12:15:15 PM CEST
 
 #Cmp ( order = Reference )
 | AREF1      CONN_1      
 | BT1        BLUETOOTHMOD_DX
+| BypC1      IR          
+| BypC2      H           
+| BypC3      Servo       
+| BypC4      US          
+| BypC5      Mux         
 | C1         100nF       
 | C2         100uF(min)  
 | C3         22pF        
@@ -24,20 +29,20 @@ eeschema (2011-nov-30)-testing  >> Creation date: Thu 21 Jun 2012 01:42:50 AM CE
 | D9         IR_LD271    
 | D10        IR_LD271    
 | F1         FUSE        
-| I2C1       CONN_4      
-| I2C2       CONN_4      
+| H1         HEAD3X2     
 | IC1        ATMEGA328-P 
 | IC2        4067D       
 | IC3        L293D       
-| J1         ExtPwr      
+| J?1        EXT         
 | JP1        ServoScanner
+| JP2        JP_4        
+| JP3        JP_4        
 | LED1       LED_ARBG    
 | LED2       LED_ARBG    
 | LED3       LED_ARBG    
 | M1         XBEE        
 | P1         Batt        
 | P2         Serial      
-| P3         ICSP        
 | P4         GPIO_4PIN   
 | P5         GPIO_4PIN   
 | P6         GPIO_4PIN   
@@ -96,6 +101,11 @@ eeschema (2011-nov-30)-testing  >> Creation date: Thu 21 Jun 2012 01:42:50 AM CE
 #Cmp ( order = Value )
 | CONN_1       AREF1     
 | BLUETOOTHMOD_DX BT1       
+| IR           BypC1     
+| H            BypC2     
+| Servo        BypC3     
+| US           BypC4     
+| Mux          BypC5     
 | 22pF         C3        
 | 22pF         C5        
 | 0.1u         C4        
@@ -117,13 +127,14 @@ eeschema (2011-nov-30)-testing  >> Creation date: Thu 21 Jun 2012 01:42:50 AM CE
 | LED          D3        
 | RSSI         D2        
 | FUSE         F1        
-| CONN_4       I2C1      
-| CONN_4       I2C2      
+| HEAD3X2      H1        
 | ATMEGA328-P  IC1       
 | 4067D        IC2       
 | L293D        IC3       
-| ExtPwr       J1        
+| EXT          J?1       
 | ServoScanner JP1       
+| JP_4         JP2       
+| JP_4         JP3       
 | LED_ARBG     LED1      
 | LED_ARBG     LED2      
 | LED_ARBG     LED3      
@@ -143,7 +154,6 @@ eeschema (2011-nov-30)-testing  >> Creation date: Thu 21 Jun 2012 01:42:50 AM CE
 | GPIO_4PIN    P16       
 | GPIO_4PIN    P17       
 | GPIO_4PIN    P18       
-| ICSP         P3        
 | IR_Scanner   P10       
 | Serial       P2        
 | PT480F       Q1        
@@ -154,11 +164,11 @@ eeschema (2011-nov-30)-testing  >> Creation date: Thu 21 Jun 2012 01:42:50 AM CE
 | 120          R21       
 | 180          R20       
 | 180          R19       
+| 220          R10       
 | 220          R12       
 | 220          R14       
-| 220          R10       
-| 220          R17       
 | 220          R4        
+| 220          R17       
 | 348          R8        
 | 500          R15       
 | 1k           R7        

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 21 Jun 2012 12:59:37 AM CEST
+EESchema Schematic File Version 2  date Thu 21 Jun 2012 01:50:30 AM CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -2339,7 +2339,7 @@ Wire Wire Line
 Wire Wire Line
 	11900 5700 12000 5700
 Wire Notes Line
-	10050 4850 10300 4850
+	10050 4850 10250 4850
 Wire Notes Line
 	10050 5450 10150 5450
 Wire Notes Line
@@ -2398,4 +2398,16 @@ Connection ~ 14550 2700
 Connection ~ 14550 2700
 Connection ~ 14550 2900
 Connection ~ 7200 2100
+Wire Notes Line
+	10250 4850 10200 4900
+Wire Notes Line
+	10250 4850 10200 4800
+Wire Notes Line
+	10150 5450 10100 5400
+Wire Notes Line
+	10150 5450 10100 5500
+Wire Notes Line
+	11350 5650 11300 5600
+Wire Notes Line
+	11350 5650 11300 5700
 $EndSCHEMATC

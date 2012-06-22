@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 22 Jun 2012 08:13:31 PM CEST
+EESchema Schematic File Version 2  date Fri 22 Jun 2012 08:22:02 PM CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -2537,4 +2537,6 @@ F 1 "GND" H 6750 2930 30  0001 C CNN
 $EndComp
 Text Notes 2450 2100 0    58   Italic 12
 Test the IPP!
+Text Notes 9750 6100 0    58   Italic 12
+Not all caps go to +5V!
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 22 Jun 2012 08:11:17 PM CEST
+EESchema Schematic File Version 2  date Fri 22 Jun 2012 08:13:31 PM CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -2513,7 +2513,7 @@ L LED D11
 U 1 1 4FE4BCA1
 P 6750 2300
 F 0 "D11" H 6750 2400 50  0000 C CNN
-F 1 "LED" H 6750 2200 50  0000 C CNN
+F 1 "ON" H 6750 2200 50  0000 C CNN
 	1    6750 2300
 	0    1    1    0   
 $EndComp
@@ -2535,4 +2535,6 @@ F 1 "GND" H 6750 2930 30  0001 C CNN
 	1    6750 3000
 	1    0    0    -1  
 $EndComp
+Text Notes 2450 2100 0    58   Italic 12
+Test the IPP!
 $EndSCHEMATC

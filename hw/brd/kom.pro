@@ -1,11 +1,6 @@
-update=Thu 21 Jun 2012 12:14:29 AM CEST
+update=Mon 25 Jun 2012 07:37:49 PM CEST
 version=1
-last_client=eeschema
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+last_client=cvpcb
 [general]
 version=1
 [pcbnew]
@@ -26,7 +21,6 @@ EdgeLar=150
 TxtLar=120
 MSegLar=150
 [pcbnew/libraries]
-LibDir=
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -38,6 +32,9 @@ LibName8=led
 LibName9=dip_sockets
 LibName10=pga_sockets
 LibName11=valves
+LibName12=/home/svilches/workspace/kom/hw/brd/lib/monolito-1.2/Monolito-1_2
+LibName13=/home/svilches/workspace/kom/hw/brd/lib/LED_RGB/LED5_RGB
+LibDir=
 [eeschema]
 version=1
 LibDir=/home/svilches/workspace/kom/hw/brd/lib
@@ -92,3 +89,8 @@ LibName39=ultrasonicmodule_sdm-io
 LibName40=gp2y0a21/gp2y0a21
 LibName41=gpio_4pin
 LibName42=monolito-1.2/Monolito-1_2
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms

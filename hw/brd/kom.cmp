@@ -1,10 +1,10 @@
-Cmp-Mod V01 Created by CvPcb (2011-nov-30)-testing date = Mon 25 Jun 2012 08:13:33 PM CEST
+Cmp-Mod V01 Created by CvPcb (2011-nov-30)-testing date = Mon 25 Jun 2012 10:06:59 PM CEST
 
 BeginCmp
 TimeStamp = /4FD33388;
 Reference = BT1;
 ValeurCmp = BLUETOOTHMOD_DX;
-IdModule  = 1pin;
+IdModule  = BLUETOOTHMOD_DX;
 EndCmp
 
 BeginCmp
@@ -165,28 +165,28 @@ BeginCmp
 TimeStamp = /4FD74922;
 Reference = D4;
 ValeurCmp = IR_LED;
-IdModule  = 1pin;
+IdModule  = IR_LED_Side;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FD766BB;
 Reference = D5;
 ValeurCmp = IR_LED;
-IdModule  = 1pin;
+IdModule  = IR_LED_Side;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FD766E4;
 Reference = D6;
 ValeurCmp = IR_LED;
-IdModule  = 1pin;
+IdModule  = IR_LED_Side;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FD7670D;
 Reference = D7;
 ValeurCmp = IR_LED;
-IdModule  = 1pin;
+IdModule  = IR_LED_Side;
 EndCmp
 
 BeginCmp
@@ -277,7 +277,7 @@ BeginCmp
 TimeStamp = /4FE85361;
 Reference = J2;
 ValeurCmp = LiPo;
-IdModule  = ;
+IdModule  = JST_XH;
 EndCmp
 
 BeginCmp
@@ -438,28 +438,28 @@ BeginCmp
 TimeStamp = /4FD74904;
 Reference = Q1;
 ValeurCmp = PT480F;
-IdModule  = ;
+IdModule  = IR_PHT_Side;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FD766B5;
 Reference = Q2;
 ValeurCmp = PT480F;
-IdModule  = ;
+IdModule  = IR_PHT_Side;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FD766DE;
 Reference = Q3;
 ValeurCmp = PT480F;
-IdModule  = ;
+IdModule  = IR_PHT_Side;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FD76707;
 Reference = Q4;
 ValeurCmp = PT480F;
-IdModule  = ;
+IdModule  = IR_PHT_Side;
 EndCmp
 
 BeginCmp
@@ -641,7 +641,7 @@ BeginCmp
 TimeStamp = /4FD321FA;
 Reference = SW3;
 ValeurCmp = PWR_Control;
-IdModule  = ;
+IdModule  = SWDIP4;
 EndCmp
 
 BeginCmp
@@ -683,7 +683,7 @@ BeginCmp
 TimeStamp = /4FCE13E4;
 Reference = U5;
 ValeurCmp = PTH08000WAZT;
-IdModule  = ;
+IdModule  = PTH08000;
 EndCmp
 
 BeginCmp
@@ -697,14 +697,14 @@ BeginCmp
 TimeStamp = /4FE13E29;
 Reference = US1;
 ValeurCmp = US_L;
-IdModule  = ;
+IdModule  = SDM-IO Ultrasonic Sensor;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE13E0D;
 Reference = US2;
 ValeurCmp = US_R;
-IdModule  = ;
+IdModule  = SDM-IO Ultrasonic Sensor;
 EndCmp
 
 BeginCmp

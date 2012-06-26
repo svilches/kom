@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2011-nov-30)-testing date = Mon 25 Jun 2012 10:06:59 PM CEST
+Cmp-Mod V01 Created by CvPcb (2011-nov-30)-testing date = Tue 26 Jun 2012 11:48:15 AM CEST
 
 BeginCmp
 TimeStamp = /4FD33388;
@@ -249,7 +249,7 @@ BeginCmp
 TimeStamp = /4FD6FCA4;
 Reference = IC2;
 ValeurCmp = 4067D;
-IdModule  = DIP-22__300_ELL;
+IdModule  = DIP-24__300_ELL;
 EndCmp
 
 BeginCmp
@@ -659,10 +659,10 @@ IdModule  = R3-LARGE_PADS;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FD32BAA;
+TimeStamp = /4FE984EB;
 Reference = U2;
-ValeurCmp = LM7833;
-IdModule  = TO92;
+ValeurCmp = MCP1700-3302E;
+IdModule  = TO92-123;
 EndCmp
 
 BeginCmp

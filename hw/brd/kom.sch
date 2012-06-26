@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 25 Jun 2012 08:58:39 PM CEST
+EESchema Schematic File Version 2  date Tue 26 Jun 2012 11:47:49 AM CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -48,7 +48,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "komBOT"
-Date "25 jun 2012"
+Date "26 jun 2012"
 Rev ""
 Comp "Universidad Carlos III"
 Comment1 ""
@@ -527,15 +527,6 @@ F 0 "M1" H 4250 10550 50  0000 L BNN
 F 1 "XBEE" H 4250 7850 50  0000 L BNN
 F 2 "xbee_r1-XBEE" H 5050 9400 50  0001 C CNN
 	1    5050 9250
-	1    0    0    -1  
-$EndComp
-$Comp
-L LM7805 U2
-U 1 1 4FD32BAA
-P 3550 8200
-F 0 "U2" H 3700 8004 60  0000 C CNN
-F 1 "LM7833" H 3550 8400 60  0000 C CNN
-	1    3550 8200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2645,6 +2636,15 @@ P 15250 9400
 F 0 "C6" V 15100 9350 50  0000 L CNN
 F 1 "100nF MotorR" V 15400 9150 50  0000 L CNN
 	1    15250 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCP1700-3302E U2
+U 1 1 4FE984EB
+P 3550 8200
+F 0 "U2" H 3700 8004 59  0000 C CNN
+F 1 "MCP1700-3302E" H 3550 8400 58  0000 C CNN
+	1    3550 8200
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

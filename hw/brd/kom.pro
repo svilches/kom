@@ -1,6 +1,6 @@
-update=Mon 25 Jun 2012 09:47:32 PM CEST
+update=Tue 26 Jun 2012 11:17:02 AM CEST
 version=1
-last_client=cvpcb
+last_client=pcbnew
 [general]
 version=1
 [eeschema]
@@ -57,9 +57,14 @@ LibName39=ultrasonicmodule_sdm-io
 LibName40=gp2y0a21/gp2y0a21
 LibName41=gpio_4pin
 LibName42=monolito-1.2/Monolito-1_2
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [pcbnew]
 version=1
-LastNetListRead=
+LastNetListRead=kom.net
 PadDrlX=354
 PadDimH=589
 PadDimV=787
@@ -75,6 +80,7 @@ EdgeLar=150
 TxtLar=120
 MSegLar=150
 [pcbnew/libraries]
+LibDir=/home/svilches/workspace/kom/hw/brd/lib
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -90,9 +96,5 @@ LibName12=/home/svilches/workspace/kom/hw/brd/lib/monolito-1.2/Monolito-1_2
 LibName13=/home/svilches/workspace/kom/hw/brd/lib/LED_RGB/LED5_RGB
 LibName14=/home/svilches/workspace/kom/hw/brd/lib/komLib/kom
 LibName15=/home/svilches/workspace/kom/hw/brd/lib/dipSwitch/dips-s
-LibDir=
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+LibName16=/home/svilches/workspace/kom/hw/brd/lib/gp2y0a21/SHARP_IR_Range
+LibName17=xbee_r1/xbee_r1

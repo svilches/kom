@@ -1,7 +1,25 @@
-EESchema-DOCLIB  Version 2.0  Date: Sat 09 Jun 2012 01:07:48 PM CEST
+EESchema-DOCLIB  Version 2.0  Date: Tue 26 Jun 2012 11:45:26 AM CEST
+#
+$CMP 78L05
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78lxx.pdf
+$ENDCMP
 #
 $CMP BLUETOOTHMOD_DX
 D DealExtreme Bluetooth Module
+$ENDCMP
+#
+$CMP LM7812
+D Linear Regulator +12V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP MCP1700-3302E
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78xx.pdf
 $ENDCMP
 #
 $CMP PTH08000WAZT

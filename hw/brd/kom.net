@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Tue 26 Jun 2012 11:47:48 AM CEST
+# EESchema Netlist Version 1.1 created  Tue 26 Jun 2012 01:59:00 PM CEST
 (
  ( /4FCE0FEF DIL28  IC1 ATMEGA328-P {Lib=ATMEGA328-P}
   (    1 /RESET )
@@ -343,37 +343,37 @@
   (    1 N-000078 )
   (    2 /LED_GND_R )
  )
- ( /4FE233FB $noname  P2 GPIO_4PIN {Lib=GPIO_4PIN}
+ ( /4FE233FB $noname  P2 D2 {Lib=GPIO_4PIN}
   (    1 /D2 )
   (    2 /D2 )
   (    3 +5V )
   (    4 GND )
  )
- ( /4FE24FF8 $noname  P3 GPIO_4PIN {Lib=GPIO_4PIN}
+ ( /4FE24FF8 $noname  P3 D5 {Lib=GPIO_4PIN}
   (    1 /D5 )
   (    2 /D5 )
   (    3 +5V )
   (    4 GND )
  )
- ( /4FE25003 $noname  P4 GPIO_4PIN {Lib=GPIO_4PIN}
+ ( /4FE25003 $noname  P4 D6 {Lib=GPIO_4PIN}
   (    1 /D6 )
   (    2 /D6 )
   (    3 +5V )
   (    4 GND )
  )
- ( /4FE2500E $noname  P5 GPIO_4PIN {Lib=GPIO_4PIN}
+ ( /4FE2500E $noname  P5 A1 {Lib=GPIO_4PIN}
   (    1 /A1 )
   (    2 /A1 )
   (    3 +5V )
   (    4 GND )
  )
- ( /4FE25019 $noname  P6 GPIO_4PIN {Lib=GPIO_4PIN}
+ ( /4FE25019 $noname  P6 A2 {Lib=GPIO_4PIN}
   (    1 /A2 )
   (    2 /A2 )
   (    3 +5V )
   (    4 GND )
  )
- ( /4FE25024 $noname  P7 GPIO_4PIN {Lib=GPIO_4PIN}
+ ( /4FE25024 $noname  P7 A3 {Lib=GPIO_4PIN}
   (    1 /A3 )
   (    2 /A3 )
   (    3 +5V )
@@ -418,49 +418,49 @@
   (    1 +5V )
   (    2 /A5 )
  )
- ( /4FE29E85 $noname  P9 GPIO_4PIN {Lib=GPIO_4PIN}
+ ( /4FE29E85 $noname  P9 X0 {Lib=GPIO_4PIN}
   (    1 /X0 )
   (    2 /X0 )
   (    3 +5V )
   (    4 GND )
  )
- ( /4FE2A909 $noname  P10 GPIO_4PIN {Lib=GPIO_4PIN}
+ ( /4FE2A909 $noname  P10 X1 {Lib=GPIO_4PIN}
   (    1 /X1 )
   (    2 /X1 )
   (    3 +5V )
   (    4 GND )
  )
- ( /4FE2A915 $noname  P11 GPIO_4PIN {Lib=GPIO_4PIN}
+ ( /4FE2A915 $noname  P11 X2 {Lib=GPIO_4PIN}
   (    1 /X2 )
   (    2 /X2 )
   (    3 +5V )
   (    4 GND )
  )
- ( /4FE2A926 $noname  P12 GPIO_4PIN {Lib=GPIO_4PIN}
+ ( /4FE2A926 $noname  P12 X3 {Lib=GPIO_4PIN}
   (    1 /X3 )
   (    2 /X3 )
   (    3 +5V )
   (    4 GND )
  )
- ( /4FE2A92C $noname  P13 GPIO_4PIN {Lib=GPIO_4PIN}
+ ( /4FE2A92C $noname  P13 X4 {Lib=GPIO_4PIN}
   (    1 /X4 )
   (    2 /X4 )
   (    3 +5V )
   (    4 GND )
  )
- ( /4FE2A932 $noname  P14 GPIO_4PIN {Lib=GPIO_4PIN}
+ ( /4FE2A932 $noname  P14 X5 {Lib=GPIO_4PIN}
   (    1 /X5 )
   (    2 /X5 )
   (    3 +5V )
   (    4 GND )
  )
- ( /4FE2A938 $noname  P15 GPIO_4PIN {Lib=GPIO_4PIN}
+ ( /4FE2A938 $noname  P15 X6 {Lib=GPIO_4PIN}
   (    1 /X6 )
   (    2 /X6 )
   (    3 +5V )
   (    4 GND )
  )
- ( /4FE2A93E $noname  P16 GPIO_4PIN {Lib=GPIO_4PIN}
+ ( /4FE2A93E $noname  P16 X7 {Lib=GPIO_4PIN}
   (    1 /X7 )
   (    2 /X7 )
   (    3 +5V )
@@ -479,13 +479,13 @@
   (    5 /D11 )
   (    6 +5V )
  )
- ( /4FE2F5BD $noname  I2C2 JP_4 {Lib=JP_4}
+ ( /4FE2F5BD $noname  I2C2 I2C {Lib=JP_4}
   (    1 +5V )
   (    2 /A4 )
   (    3 /A5 )
   (    4 GND )
  )
- ( /4FE2F5D4 $noname  I2C1 JP_4 {Lib=JP_4}
+ ( /4FE2F5D4 $noname  I2C1 I2C {Lib=JP_4}
   (    1 +5V )
   (    2 /A4 )
   (    3 /A5 )

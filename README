@@ -5,5 +5,7 @@ Will include all the source files and documentation for both hardware and softwa
 GIT RESOURCES
 - Starting point:
 	http://www.gitguys.com/topics/skip-the-intro/
+- GIT Book:
+	http://git-scm.com/book/ch1-3.html
 - gitg, a graphical tool to see what you are doing to the repository
 	sudo apt-get install gitg 

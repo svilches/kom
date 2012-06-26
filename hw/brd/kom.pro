@@ -1,4 +1,4 @@
-update=Tue 26 Jun 2012 11:17:02 AM CEST
+update=Tue 26 Jun 2012 01:00:51 PM CEST
 version=1
 last_client=pcbnew
 [general]
@@ -65,9 +65,9 @@ EquName1=devcms
 [pcbnew]
 version=1
 LastNetListRead=kom.net
-PadDrlX=354
-PadDimH=589
-PadDimV=787
+PadDrlX=1259
+PadDimH=1259
+PadDimV=1259
 BoardThickness=630
 TxtPcbV=800
 TxtPcbH=600
@@ -98,3 +98,5 @@ LibName14=/home/svilches/workspace/kom/hw/brd/lib/komLib/kom
 LibName15=/home/svilches/workspace/kom/hw/brd/lib/dipSwitch/dips-s
 LibName16=/home/svilches/workspace/kom/hw/brd/lib/gp2y0a21/SHARP_IR_Range
 LibName17=xbee_r1/xbee_r1
+LibName18=OSHW
+LibName19=gp2y0a21/SHARP_IR_Range

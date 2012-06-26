@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Tue 26 Jun 2012 01:05:27 PM CEST
+PCBNEW-LibModule-V1  Tue 26 Jun 2012 04:35:21 PM CEST
 # encoding utf-8
 Units deci-mils
 $INDEX
@@ -245,7 +245,7 @@ Po 0 0
 $EndPAD
 $EndMODULE M2 Hole
 $MODULE M3 Hole
-Po 0 0 0 15 4FE99335 00000000 ~~
+Po 0 0 0 15 4FE9C8A2 00000000 ~~
 Li M3 Hole
 Sc 0
 AR 
@@ -255,7 +255,7 @@ T1 0 1377 600 600 0 120 N I 21 N "VAL**"
 $PAD
 Sh "" C 1259 1259 0 0 0
 Dr 1259 0 0
-At STD N 00E0FFFF
+At STD N 01E0FFFF
 Ne 0 ""
 Po 0 0
 .LocalClearance 984

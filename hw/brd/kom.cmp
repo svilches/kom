@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = Tue 26 Jun 2012 01:06:20 PM CEST
+Cmp-Mod V01 Created by CvPcb (2011-nov-30)-testing date = Tue 26 Jun 2012 04:14:37 PM CEST
 
 BeginCmp
 TimeStamp = /4FD33388;
@@ -227,14 +227,14 @@ EndCmp
 BeginCmp
 TimeStamp = /4FE2F5D4;
 Reference = I2C1;
-ValeurCmp = JP_4;
+ValeurCmp = I2C;
 IdModule  = CON1X4;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE2F5BD;
 Reference = I2C2;
-ValeurCmp = JP_4;
+ValeurCmp = I2C;
 IdModule  = CON1X4;
 EndCmp
 
@@ -325,42 +325,42 @@ EndCmp
 BeginCmp
 TimeStamp = /4FE233FB;
 Reference = P2;
-ValeurCmp = GPIO_4PIN;
+ValeurCmp = D2;
 IdModule  = CON1X4;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE24FF8;
 Reference = P3;
-ValeurCmp = GPIO_4PIN;
+ValeurCmp = D5;
 IdModule  = CON1X4;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE25003;
 Reference = P4;
-ValeurCmp = GPIO_4PIN;
+ValeurCmp = D6;
 IdModule  = CON1X4;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE2500E;
 Reference = P5;
-ValeurCmp = GPIO_4PIN;
+ValeurCmp = A1;
 IdModule  = CON1X4;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE25019;
 Reference = P6;
-ValeurCmp = GPIO_4PIN;
+ValeurCmp = A2;
 IdModule  = CON1X4;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE25024;
 Reference = P7;
-ValeurCmp = GPIO_4PIN;
+ValeurCmp = A3;
 IdModule  = CON1X4;
 EndCmp
 
@@ -374,56 +374,56 @@ EndCmp
 BeginCmp
 TimeStamp = /4FE29E85;
 Reference = P9;
-ValeurCmp = GPIO_4PIN;
+ValeurCmp = X0;
 IdModule  = CON1X4;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE2A909;
 Reference = P10;
-ValeurCmp = GPIO_4PIN;
+ValeurCmp = X1;
 IdModule  = CON1X4;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE2A915;
 Reference = P11;
-ValeurCmp = GPIO_4PIN;
+ValeurCmp = X2;
 IdModule  = CON1X4;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE2A926;
 Reference = P12;
-ValeurCmp = GPIO_4PIN;
+ValeurCmp = X3;
 IdModule  = CON1X4;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE2A92C;
 Reference = P13;
-ValeurCmp = GPIO_4PIN;
+ValeurCmp = X4;
 IdModule  = CON1X4;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE2A932;
 Reference = P14;
-ValeurCmp = GPIO_4PIN;
+ValeurCmp = X5;
 IdModule  = CON1X4;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE2A938;
 Reference = P15;
-ValeurCmp = GPIO_4PIN;
+ValeurCmp = X6;
 IdModule  = CON1X4;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE2A93E;
 Reference = P16;
-ValeurCmp = GPIO_4PIN;
+ValeurCmp = X7;
 IdModule  = CON1X4;
 EndCmp
 
@@ -676,7 +676,7 @@ BeginCmp
 TimeStamp = /4FCE13F6;
 Reference = U4;
 ValeurCmp = TC54;
-IdModule  = TO92;
+IdModule  = TO92-123;
 EndCmp
 
 BeginCmp

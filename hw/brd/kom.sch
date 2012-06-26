@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 26 Jun 2012 01:58:56 PM CEST
+EESchema Schematic File Version 2  date Tue 26 Jun 2012 05:34:39 PM CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -226,7 +226,7 @@ F 1 "GND" H 1400 1680 30  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 1900 1300 0    58   ~ 0
-BattIn
+EXT
 Text Notes 900  950  0    58   ~ 0
 Power Supply and Management
 $Comp
@@ -343,7 +343,7 @@ Text Label 1900 4950 0    58   ~ 0
 RESET
 Text Label 3350 2550 1    58   ~ 0
 0.4Vin
-Text Label 3100 1550 1    58   ~ 0
+Text Label 3100 2050 0    58   ~ 0
 Vin
 $Comp
 L +5V #PWR016
@@ -2647,4 +2647,6 @@ F 1 "MCP1700-3302E" H 3550 8400 58  0000 C CNN
 	1    3550 8200
 	1    0    0    -1  
 $EndComp
+Text Label 1900 2100 0    58   ~ 0
+BATT
 $EndSCHEMATC

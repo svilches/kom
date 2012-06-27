@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2011-nov-30)-testing date = Wed 27 Jun 2012 12:12:51 PM CEST
+Cmp-Mod V01 Created by CvPcb (2011-nov-30)-testing date = Wed 27 Jun 2012 12:44:57 PM CEST
 
 BeginCmp
 TimeStamp = /4FD33388;
@@ -36,37 +36,44 @@ IdModule  = CON-MUL;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FE84566;
-Reference = C5;
-ValeurCmp = 100nF_MotorL;
-IdModule  = CON-MUL;
-EndCmp
-
-BeginCmp
-TimeStamp = /4FE8BAFD;
-Reference = C6;
-ValeurCmp = 100nF_MotorR;
-IdModule  = CON-MUL;
-EndCmp
-
-BeginCmp
 TimeStamp = /4FE874B6;
-Reference = C7;
+Reference = C5;
 ValeurCmp = 100n_AVR;
 IdModule  = CON-MUL;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE85DC0;
-Reference = C8;
+Reference = C6;
 ValeurCmp = 100n_AVCC;
 IdModule  = CON-MUL;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE85D74;
-Reference = C9;
+Reference = C7;
 ValeurCmp = 8.2pF_Radio;
+IdModule  = CON-MUL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FE84566;
+Reference = C8;
+ValeurCmp = 100nF_MotorL;
+IdModule  = CON-MUL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FE8BAFD;
+Reference = C9;
+ValeurCmp = 100nF_MotorR;
+IdModule  = CON-MUL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FEAF88E;
+Reference = C10;
+ValeurCmp = 100n_MUX;
 IdModule  = CON-MUL;
 EndCmp
 
@@ -99,15 +106,8 @@ IdModule  = CON-ELE;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FE2FFB6;
-Reference = CAP5;
-ValeurCmp = 100nF_Mux;
-IdModule  = CON-ELE;
-EndCmp
-
-BeginCmp
 TimeStamp = /4FE85D81;
-Reference = CAP8;
+Reference = CAP6;
 ValeurCmp = 1uF_Radio;
 IdModule  = CON-ELE;
 EndCmp
@@ -326,7 +326,7 @@ BeginCmp
 TimeStamp = /4FD082B3;
 Reference = P2;
 ValeurCmp = ARef;
-IdModule  = CON1X4;
+IdModule  = PINTST;
 EndCmp
 
 BeginCmp
@@ -431,7 +431,7 @@ BeginCmp
 TimeStamp = /4FE2A93E;
 Reference = P17;
 ValeurCmp = X7;
-IdModule  = PINTST;
+IdModule  = CON1X4;
 EndCmp
 
 BeginCmp

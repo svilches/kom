@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 27 Jun 2012 10:53:06 AM CEST
+EESchema Schematic File Version 2  date Wed 27 Jun 2012 12:15:32 PM CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -2376,10 +2376,10 @@ Wire Wire Line
 Wire Wire Line
 	9650 6300 9650 6400
 $Comp
-L C CAP9
+L C C9
 U 1 1 4FE85D74
 P 11300 6550
-F 0 "CAP9" V 11150 6400 50  0000 L CNN
+F 0 "C9" V 11150 6400 50  0000 L CNN
 F 1 "8.2pF Radio" V 11450 6300 50  0000 L CNN
 	1    11300 6550
 	1    0    0    -1  
@@ -2394,10 +2394,10 @@ F 1 "1uF Radio" H 10900 6600 50  0000 L CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C CAP7
+L C C8
 U 1 1 4FE85DC0
 P 10500 6550
-F 0 "CAP7" V 10350 6450 50  0000 L CNN
+F 0 "C8" V 10350 6450 50  0000 L CNN
 F 1 "100n AVCC" V 10650 6350 50  0000 L CNN
 	1    10500 6550
 	1    0    0    -1  
@@ -2447,10 +2447,10 @@ Wire Wire Line
 	11300 6850 11300 6750
 Connection ~ 10900 6850
 $Comp
-L C CAP6
+L C C7
 U 1 1 4FE874B6
 P 10100 6550
-F 0 "CAP6" V 9950 6450 50  0000 L CNN
+F 0 "C7" V 9950 6450 50  0000 L CNN
 F 1 "100n AVR" V 10250 6350 50  0000 L CNN
 	1    10100 6550
 	1    0    0    -1  

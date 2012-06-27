@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 27 Jun 2012 09:58:53 AM CEST
+EESchema Schematic File Version 2  date Wed 27 Jun 2012 10:41:43 AM CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -2653,4 +2653,13 @@ Connection ~ 9250 9600
 Connection ~ 10150 9600
 Connection ~ 11050 9600
 Connection ~ 11950 9600
+Connection ~ 11400 2250
+Connection ~ 6750 2100
+Connection ~ 3100 2050
+Connection ~ 1900 1450
+Connection ~ 2850 4700
+Connection ~ 1800 4950
+Connection ~ 3950 8150
+Connection ~ 1600 9400
+Connection ~ 6850 9150
 $EndSCHEMATC

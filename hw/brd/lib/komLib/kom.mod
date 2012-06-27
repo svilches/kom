@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Wed 27 Jun 2012 10:05:34 AM CEST
+PCBNEW-LibModule-V1  Wed 27 Jun 2012 02:11:22 PM CEST
 # encoding utf-8
 Units deci-mils
 $INDEX
@@ -9,6 +9,7 @@ IR_PHT_Side
 JST_XH
 M2 Hole
 M3 Hole
+M8 Hole
 PTH08000
 SDM-IO Ultrasonic Sensor
 servoOutline
@@ -261,6 +262,23 @@ Po 0 0
 .LocalClearance 984
 $EndPAD
 $EndMODULE M3 Hole
+$MODULE M8 Hole
+Po 0 0 0 15 4FEAF85B 00000000 ~~
+Li M8 Hole
+Sc 0
+AR 
+Op 0 0 0
+T0 0 0 392 392 0 97 N V 21 N "M8"
+T1 0 1377 600 600 0 120 N I 21 N "VAL**"
+$PAD
+Sh "" C 3149 3149 0 0 0
+Dr 3149 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+.LocalClearance 393
+$EndPAD
+$EndMODULE M8 Hole
 $MODULE PTH08000
 Po 0 0 0 15 4FE8C2B9 00000000 ~~
 Li PTH08000

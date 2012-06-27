@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 27 Jun 2012 01:08:55 PM CEST
+EESchema Schematic File Version 2  date Wed 27 Jun 2012 02:22:28 PM CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -2354,11 +2354,11 @@ $EndComp
 $Comp
 L CPOL CAP1
 U 1 1 4FE85957
-P 4650 2050
-F 0 "CAP1" H 4700 2200 50  0000 L CNN
-F 1 "100uF InCap" H 4650 1900 50  0000 L CNN
-	1    4650 2050
-	0    -1   -1   0   
+P 4650 1700
+F 0 "CAP1" H 4700 1850 50  0000 L CNN
+F 1 "100uF InCap" H 4500 1950 50  0000 L CNN
+	1    4650 1700
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	4550 1650 4650 1650
@@ -2521,7 +2521,7 @@ P 3550 8200
 F 0 "U2" H 3700 8004 59  0000 C CNN
 F 1 "MCP1700-3302E" H 3550 8400 58  0000 C CNN
 	1    3550 8200
-	1    0    0    -1  
+	0    1    1    0   
 $EndComp
 Text Label 1900 2100 0    58   ~ 0
 BATT

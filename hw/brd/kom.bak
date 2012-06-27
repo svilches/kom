@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 27 Jun 2012 05:03:18 PM CEST
+EESchema Schematic File Version 2  date Wed 27 Jun 2012 07:54:38 PM CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -2157,8 +2157,6 @@ Connection ~ 8950 5400
 Wire Wire Line
 	10750 4200 10750 4250
 Wire Wire Line
-	9550 4200 9750 4200
-Wire Wire Line
 	11600 2250 11400 2250
 Wire Wire Line
 	11400 2250 11400 2050
@@ -2462,12 +2460,6 @@ $EndComp
 Wire Wire Line
 	10150 4200 10250 4200
 Wire Wire Line
-	10150 4300 10150 4200
-Wire Wire Line
-	9750 4200 9750 4300
-Wire Wire Line
-	1800 5050 1700 5050
-Wire Wire Line
 	1700 5450 1800 5450
 $Comp
 L PWR_FLAG #FLG065
@@ -2617,4 +2609,11 @@ F 1 "LED_RAGB" H 14550 5700 60  0000 C CNN
 	1    14550 5950
 	0    1    1    0   
 $EndComp
+NoConn ~ 10150 4300
+Wire Wire Line
+	9550 4200 9550 4300
+Wire Wire Line
+	9550 4300 9750 4300
+NoConn ~ 9750 4200
+NoConn ~ 1700 5050
 $EndSCHEMATC

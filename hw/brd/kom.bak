@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 26 Jun 2012 04:07:17 PM CEST
+EESchema Schematic File Version 2  date Wed 27 Jun 2012 09:58:53 AM CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -48,7 +48,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "komBOT"
-Date "26 jun 2012"
+Date "27 jun 2012"
 Rev ""
 Comp "Universidad Carlos III"
 Comment1 ""
@@ -2649,4 +2649,8 @@ F 1 "MCP1700-3302E" H 3550 8400 58  0000 C CNN
 $EndComp
 Text Label 1900 2100 0    58   ~ 0
 BATT
+Connection ~ 9250 9600
+Connection ~ 10150 9600
+Connection ~ 11050 9600
+Connection ~ 11950 9600
 $EndSCHEMATC

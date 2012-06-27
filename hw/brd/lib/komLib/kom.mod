@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Tue 26 Jun 2012 04:35:21 PM CEST
+PCBNEW-LibModule-V1  Wed 27 Jun 2012 10:05:34 AM CEST
 # encoding utf-8
 Units deci-mils
 $INDEX
@@ -149,7 +149,7 @@ Po 500 0
 $EndPAD
 $EndMODULE IR_LED_Side
 $MODULE IR_PHT_Side
-Po 0 0 0 15 4FE8B2DC 00000000 ~~
+Po 0 0 0 15 4FEABEC1 00000000 ~~
 Li IR_PHT_Side
 Sc 0
 AR 
@@ -175,7 +175,7 @@ Ne 0 ""
 Po -500 0
 $EndPAD
 $PAD
-Sh "2" O 589 787 0 0 0
+Sh "3" O 589 787 0 0 0
 Dr 354 0 0
 At STD N 00E0FFFF
 Ne 0 ""

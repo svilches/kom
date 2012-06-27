@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2011-nov-30)-testing date = Wed 27 Jun 2012 12:44:57 PM CEST
+Cmp-Mod V01 Created by CvPcb (2011-nov-30)-testing date = Wed 27 Jun 2012 01:07:03 PM CEST
 
 BeginCmp
 TimeStamp = /4FD33388;
@@ -242,21 +242,21 @@ BeginCmp
 TimeStamp = /4FCE0FEF;
 Reference = IC1;
 ValeurCmp = ATMEGA328-P;
-IdModule  = DIP-28__300_ELL;
+IdModule  = DIP-28__300;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FD6FCA4;
 Reference = IC2;
 ValeurCmp = 4067D;
-IdModule  = DIP-24__300_ELL;
+IdModule  = DIP-24__300;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FD736BB;
 Reference = IC3;
 ValeurCmp = L293D;
-IdModule  = DIP-16__300_ELL;
+IdModule  = DIP-16__300;
 EndCmp
 
 BeginCmp
@@ -270,14 +270,14 @@ BeginCmp
 TimeStamp = /4FE85361;
 Reference = J1;
 ValeurCmp = LiPo;
-IdModule  = JACK_ALIM;
+IdModule  = JST_XH;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE2ED1F;
 Reference = J2;
 ValeurCmp = EXT;
-IdModule  = JST_XH;
+IdModule  = JACK_ALIM;
 EndCmp
 
 BeginCmp
@@ -466,133 +466,133 @@ BeginCmp
 TimeStamp = /4FE2900C;
 Reference = R1;
 ValeurCmp = 1.5K;
-IdModule  = R3-LARGE_PADS;
+IdModule  = R3;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE2901E;
 Reference = R2;
 ValeurCmp = 1.5K;
-IdModule  = R3-LARGE_PADS;
+IdModule  = R3;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FD089B0;
 Reference = R3;
 ValeurCmp = 10K;
-IdModule  = R3-LARGE_PADS;
+IdModule  = R3;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FCE1402;
 Reference = R4;
 ValeurCmp = 15K;
-IdModule  = R3-LARGE_PADS;
+IdModule  = R3;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FCE13FC;
 Reference = R5;
 ValeurCmp = 10K;
-IdModule  = R3-LARGE_PADS;
+IdModule  = R3;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FD32F25;
 Reference = R6;
 ValeurCmp = 220;
-IdModule  = R3-LARGE_PADS;
+IdModule  = R3;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FCE13EA;
 Reference = R7;
 ValeurCmp = 1k;
-IdModule  = R3-LARGE_PADS;
+IdModule  = R3;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FCE13CC;
 Reference = R8;
 ValeurCmp = 348;
-IdModule  = R3-LARGE_PADS;
+IdModule  = R3;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE4BCBF;
 Reference = R9;
 ValeurCmp = 330;
-IdModule  = R3-LARGE_PADS;
+IdModule  = R3;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FD32B6E;
 Reference = R10;
 ValeurCmp = 10K;
-IdModule  = R3-LARGE_PADS;
+IdModule  = R3;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FD74A26;
 Reference = R11;
 ValeurCmp = 2.2K;
-IdModule  = R3-LARGE_PADS;
+IdModule  = R3;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE259B1;
 Reference = R12;
 ValeurCmp = 500;
-IdModule  = R3-LARGE_PADS;
+IdModule  = R3;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FD766C7;
 Reference = R13;
 ValeurCmp = 2.2K;
-IdModule  = R3-LARGE_PADS;
+IdModule  = R3;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FD766F0;
 Reference = R14;
 ValeurCmp = 2.2K;
-IdModule  = R3-LARGE_PADS;
+IdModule  = R3;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FD76719;
 Reference = R15;
 ValeurCmp = 2.2K;
-IdModule  = R3-LARGE_PADS;
+IdModule  = R3;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE22376;
 Reference = R16;
 ValeurCmp = 180;
-IdModule  = R3-LARGE_PADS;
+IdModule  = R3;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE22383;
 Reference = R17;
 ValeurCmp = 180;
-IdModule  = R3-LARGE_PADS;
+IdModule  = R3;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE22389;
 Reference = R18;
 ValeurCmp = 120;
-IdModule  = R3-LARGE_PADS;
+IdModule  = R3;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE0E9EA;
 Reference = R19;
 ValeurCmp = 15;
-IdModule  = R3-LARGE_PADS;
+IdModule  = R3;
 EndCmp
 
 BeginCmp
@@ -627,7 +627,7 @@ BeginCmp
 TimeStamp = /4FE85F66;
 Reference = U1;
 ValeurCmp = INDUCTOR;
-IdModule  = R3-LARGE_PADS;
+IdModule  = R3;
 EndCmp
 
 BeginCmp
@@ -641,7 +641,7 @@ BeginCmp
 TimeStamp = /4FD32B86;
 Reference = U3;
 ValeurCmp = 74LS125;
-IdModule  = DIP-14__300_ELL;
+IdModule  = DIP-14__300;
 EndCmp
 
 BeginCmp
@@ -662,7 +662,7 @@ BeginCmp
 TimeStamp = /4FE0F20E;
 Reference = U6;
 ValeurCmp = ULN2003A;
-IdModule  = DIP-16__300_ELL;
+IdModule  = DIP-16__300;
 EndCmp
 
 BeginCmp

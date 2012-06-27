@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Wed 27 Jun 2012 01:08:47 PM CEST
+PCBNEW-BOARD Version 1 date Wed 27 Jun 2012 01:23:29 PM CEST
 
 # Created by Pcbnew(2011-nov-30)-testing
 
@@ -56,11 +56,11 @@ TextPcbSize 600 800
 EdgeModWidth 150
 TextModSize 600 600
 TextModWidth 120
-PadSize 460 460
-PadDrill 260
+PadSize 1890 1890
+PadDrill 400
 Pad2MaskClearance 100
 AuxiliaryAxisOrg 58465 41339
-VisibleElements 7FFFFB3F
+VisibleElements 7FFFFB31
 PcbPlotParams (pcbplotparams (layerselection 285212672) (usegerberextensions true) (excludeedgelayer false) (linewidth 60) (plotframeref true) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 1) (pscolor true) (psnegative false) (psa4output true) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 2) (mirror false) (drillshape 2) (scaleselection 1) (outputdirectory /media/mmedia/workspace/kom/hw/fab/Plots/))
 $EndSETUP
 
@@ -489,6 +489,51 @@ AddNet "N-000096"
 AddNet "N-000097"
 AddNet "N-000098"
 $EndNCLASS
+$MODULE JACK_ALIM
+Po 63465 61339 900 15 4FEAEACB 4FEA2F80 ~~
+Li JACK_ALIM
+Cd module 1 pin (ou trou mecanique de percage)
+Kw CONN JACK
+Sc 4FEA2F80
+AR /4FE2ED1F
+Op 0 0 0
+T0 100 -2200 400 400 900 100 N V 21 N "J2"
+T1 -2000 2200 400 400 900 100 N V 21 N "EXT"
+DS -2800 -1700 -3100 -1700 150 21
+DS -3100 -1700 -3100 1700 150 21
+DS -3100 1700 -2800 1700 150 21
+DS -1600 -1700 -1600 1700 150 21
+DS 2200 -1700 2200 1700 150 21
+DS -2800 1700 2200 1700 150 21
+DS -2800 -1700 2200 -1700 150 21
+$PAD
+Sh "1" C 1890 1890 0 0 900
+Dr 400 0 0 O 400 1000
+At STD N 00E0FFFF
+Ne 56 "GND"
+Po 0 0
+$EndPAD
+$PAD
+Sh "3" R 1890 1890 0 0 900
+Dr 400 0 0 O 400 1000
+At STD N 00E0FFFF
+Ne 35 "/EXT"
+Po 2400 0
+$EndPAD
+$PAD
+Sh "2" C 1890 1890 0 0 900
+Dr 1000 0 0 O 1000 400
+At STD N 00E0FFFF
+Ne 56 "GND"
+Po 900 2000
+$EndPAD
+$SHAPE3D
+Na "connectors/POWER_21.wrl"
+Sc 0.8 0.8 0.8
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE JACK_ALIM
 $MODULE servoOutline
 Po 58465 24409 1800 0 4FE97BE1 4FE9D7B8 F~
 Li servoOutline
@@ -13868,51 +13913,6 @@ Ne 56 "GND"
 Po 1000 0
 $EndPAD
 $EndMODULE JST_XH
-$MODULE JACK_ALIM
-Po 63465 61339 900 15 4AF1CB36 4FEA2F80 ~~
-Li JACK_ALIM
-Cd module 1 pin (ou trou mecanique de percage)
-Kw CONN JACK
-Sc 4FEA2F80
-AR /4FE2ED1F
-Op 0 0 0
-T0 100 -2200 400 400 900 100 N V 21 N "J2"
-T1 -2000 2200 400 400 900 100 N V 21 N "EXT"
-DS -2800 -1700 -3100 -1700 150 21
-DS -3100 -1700 -3100 1700 150 21
-DS -3100 1700 -2800 1700 150 21
-DS -1600 -1700 -1600 1700 150 21
-DS 2200 -1700 2200 1700 150 21
-DS -2800 1700 2200 1700 150 21
-DS -2800 -1700 2200 -1700 150 21
-$PAD
-Sh "2" C 1890 1890 0 0 900
-Dr 400 0 0 O 400 1000
-At STD N 00E0FFFF
-Ne 56 "GND"
-Po 0 0
-$EndPAD
-$PAD
-Sh "1" R 1890 1890 0 0 900
-Dr 400 0 0 O 400 1000
-At STD N 00E0FFFF
-Ne 56 "GND"
-Po 2400 0
-$EndPAD
-$PAD
-Sh "3" C 1890 1890 0 0 900
-Dr 1000 0 0 O 1000 400
-At STD N 00E0FFFF
-Ne 35 "/EXT"
-Po 900 2000
-$EndPAD
-$SHAPE3D
-Na "connectors/POWER_21.wrl"
-Sc 0.8 0.8 0.8
-Of 0 0 0
-Ro 0 0 0
-$EndSHAPE3D
-$EndMODULE JACK_ALIM
 $PCB_TARGET
 Po 0 28 58465 22047 5000 150 0
 $EndPCB_TARGET

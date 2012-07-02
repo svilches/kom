@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 27 Jun 2012 08:51:02 PM CEST
+EESchema Schematic File Version 2  date Fri 29 Jun 2012 11:22:28 AM CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -48,7 +48,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "komBOT"
-Date "27 jun 2012"
+Date "29 jun 2012"
 Rev ""
 Comp "Universidad Carlos III"
 Comment1 ""
@@ -2215,10 +2215,10 @@ AVCC
 Wire Wire Line
 	2850 4700 3150 4700
 $Comp
-L INDUCTOR U1
+L INDUCTOR 10uH
 U 1 1 4FE85F66
 P 2550 4700
-F 0 "U1" V 2500 4700 40  0000 C CNN
+F 0 "10uH" V 2500 4700 40  0000 C CNN
 F 1 "INDUCTOR" V 2650 4700 40  0000 C CNN
 	1    2550 4700
 	0    -1   -1   0   

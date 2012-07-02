@@ -1,4 +1,11 @@
-Cmp-Mod V01 Created by CvPcb (2011-nov-30)-testing date = Wed 27 Jun 2012 08:46:33 PM CEST
+Cmp-Mod V01 Created by CvPcb (2011-nov-30)-testing date = Mon 02 Jul 2012 10:11:53 PM CEST
+
+BeginCmp
+TimeStamp = /4FF2011C;
+Reference = BC1;
+ValeurCmp = BC547;
+IdModule  = TO92-123;
+EndCmp
 
 BeginCmp
 TimeStamp = /4FD33388;
@@ -113,29 +120,15 @@ IdModule  = CON-ELE;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FE2618A;
-Reference = CP1;
-ValeurCmp = PWR1;
-IdModule  = Molex2P-R;
-EndCmp
-
-BeginCmp
-TimeStamp = /4FE2785A;
-Reference = CP2;
-ValeurCmp = PWR2;
-IdModule  = Molex2P-R;
-EndCmp
-
-BeginCmp
 TimeStamp = /4FE2674E;
-Reference = CP3;
+Reference = CP1;
 ValeurCmp = LMotor;
 IdModule  = Molex2P-R;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE26199;
-Reference = CP4;
+Reference = CP2;
 ValeurCmp = RMotor;
 IdModule  = Molex2P-R;
 EndCmp
@@ -219,14 +212,14 @@ EndCmp
 
 BeginCmp
 TimeStamp = /4FE2F5D4;
-Reference = I2C1;
+Reference = I1;
 ValeurCmp = I2C;
 IdModule  = CON1X4;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE2F5BD;
-Reference = I2C2;
+Reference = I2;
 ValeurCmp = I2C;
 IdModule  = CON1X4;
 EndCmp
@@ -281,23 +274,23 @@ IdModule  = CON1X3;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FEB24C6;
+TimeStamp = /4FF21103;
 Reference = LED1;
-ValeurCmp = LED_RAGB;
+ValeurCmp = LED_RCGB;
 IdModule  = LED5_RGB;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FEB24E2;
+TimeStamp = /4FF21129;
 Reference = LED2;
-ValeurCmp = LED_RAGB;
+ValeurCmp = LED_RCGB;
 IdModule  = LED5_RGB;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FEB24E8;
+TimeStamp = /4FF2112F;
 Reference = LED3;
-ValeurCmp = LED_RAGB;
+ValeurCmp = LED_RCGB;
 IdModule  = LED5_RGB;
 EndCmp
 
@@ -512,16 +505,16 @@ IdModule  = R3;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FE4BCBF;
+TimeStamp = /4FD32B6E;
 Reference = R9;
-ValeurCmp = 330;
+ValeurCmp = 10K;
 IdModule  = R3;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FD32B6E;
+TimeStamp = /4FE4BCBF;
 Reference = R10;
-ValeurCmp = 10K;
+ValeurCmp = 330;
 IdModule  = R3;
 EndCmp
 
@@ -584,7 +577,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4FE0E9EA;
 Reference = R19;
-ValeurCmp = 15;
+ValeurCmp = 20;
 IdModule  = R3;
 EndCmp
 
@@ -603,8 +596,15 @@ IdModule  = MICROSWITCH_SPST;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FE8A8BD;
+TimeStamp = /4FD321FA;
 Reference = SW3;
+ValeurCmp = PWR_Control;
+IdModule  = SWDIP4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FE8A8BD;
+Reference = SW4;
 ValeurCmp = TEST;
 IdModule  = Pulsador;
 EndCmp
@@ -612,7 +612,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4FE85F66;
 Reference = U1;
-ValeurCmp = INDUCTOR;
+ValeurCmp = 10uH;
 IdModule  = R3;
 EndCmp
 
@@ -642,13 +642,6 @@ TimeStamp = /4FCE13E4;
 Reference = U5;
 ValeurCmp = PTH08000WAZT;
 IdModule  = PTH08000;
-EndCmp
-
-BeginCmp
-TimeStamp = /4FE0F20E;
-Reference = U6;
-ValeurCmp = ULN2003A;
-IdModule  = DIP-16__300;
 EndCmp
 
 BeginCmp

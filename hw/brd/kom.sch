@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 02 Jul 2012 10:07:21 PM CEST
+EESchema Schematic File Version 2  date Tue 03 Jul 2012 04:11:37 PM CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -48,7 +48,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "komBOT"
-Date "2 jul 2012"
+Date "3 jul 2012"
 Rev ""
 Comp "Universidad Carlos III"
 Comment1 ""
@@ -2457,13 +2457,6 @@ F 1 "GND" H 13800 6230 30  0001 C CNN
 	1    13800 6300
 	1    0    0    -1  
 $EndComp
-$Comp
-L +5V #PWR066
-U 1 1 4FF20969
-P 15700 4700
-F 0 "#PWR066" H 15700 4790 20  0001 C CNN
-F 1 "+5V" H 15700 4790 30  0000 C CNN
-	1    15700 4700
-	1    0    0    -1  
-$EndComp
+Text Label 15700 4700 0    58   ~ 0
+D5
 $EndSCHEMATC

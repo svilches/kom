@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Tue 03 Jul 2012 05:13:12 PM CEST
+PCBNEW-BOARD Version 1 date Tue 03 Jul 2012 05:30:08 PM CEST
 
 # Created by Pcbnew(2011-nov-30)-testing
 
@@ -7,15 +7,15 @@ encoding utf-8
 Units deci-mils
 LayerCount 2
 EnabledLayers 1FFF8001
-VisibleLayers 13308001
-Links 245
+VisibleLayers 11248001
+Links 0
 NoConn 136
 Di 30965 15339 85466 68415
-Ndraw 60
+Ndraw 62
 Ntrack 0
 Nzone 0
 BoardThickness 630
-Nmodule 105
+Nmodule 109
 Nnets 77
 $EndGENERAL
 
@@ -68,7 +68,7 @@ PadSize 864 864
 PadDrill 864
 Pad2MaskClearance 100
 AuxiliaryAxisOrg 58465 41339
-VisibleElements 7FFFFB19
+VisibleElements 7FFE6B19
 PcbPlotParams (pcbplotparams (layerselection 285212672) (usegerberextensions true) (excludeedgelayer false) (linewidth 60) (plotframeref true) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 1) (pscolor true) (psnegative false) (psa4output true) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 2) (mirror false) (drillshape 2) (scaleselection 1) (outputdirectory /media/mmedia/workspace/kom/hw/fab/Plots/))
 $EndSETUP
 
@@ -13632,7 +13632,7 @@ Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE TO92-123
 $MODULE M2 Hole
-Po 83071 41339 0 15 4FF201C4 4FF2998F F~
+Po 83071 41339 0 15 4FF201C4 4FF2998F ~~
 Li M2 Hole
 Sc 4FF2998F
 AR 
@@ -13649,7 +13649,7 @@ Po 0 0
 $EndPAD
 $EndMODULE M2 Hole
 $MODULE M2 Hole
-Po 79823 29134 0 15 4FF201C4 4FF3CA7E F~
+Po 75886 23918 0 15 4FF201C4 4FF3CA7E ~~
 Li M2 Hole
 Sc 4FF3CA7E
 AR 
@@ -13666,7 +13666,7 @@ Po 0 0
 $EndPAD
 $EndMODULE M2 Hole
 $MODULE M2 Hole
-Po 37205 29036 0 15 4FF201C4 4FF46295 F~
+Po 41044 23918 0 15 4FF201C4 4FF46295 ~~
 Li M2 Hole
 Sc 4FF46295
 AR 
@@ -13700,7 +13700,7 @@ Po 0 0
 $EndPAD
 $EndMODULE M2 Hole
 $MODULE M2 Hole
-Po 58465 18701 0 15 4FF201C4 4FF5B456 ~~
+Po 58465 16733 0 15 4FF201C4 4FF5B456 ~~
 Li M2 Hole
 Sc 4FF5B456
 AR 
@@ -13716,6 +13716,90 @@ Po 0 0
 .LocalClearance 590
 $EndPAD
 $EndMODULE M2 Hole
+$MODULE M2 Hole
+Po 33859 41339 0 15 4FF201C4 4FF3A7AD F~
+Li M2 Hole
+Sc 4FF3A7AD
+AR 
+Op 0 0 0
+T0 0 0 393 393 0 98 N V 21 N "M2"
+T1 0 1377 600 600 0 120 N I 21 N "VAL**"
+$PAD
+Sh "" C 864 864 0 0 0
+Dr 864 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+.LocalClearance 590
+$EndPAD
+$EndMODULE M2 Hole
+$MODULE M2 Hole
+Po 41044 58760 0 15 4FF201C4 4FF43FC4 ~~
+Li M2 Hole
+Sc 4FF43FC4
+AR 
+Op 0 0 0
+T0 0 0 393 393 0 98 N V 21 N "M2"
+T1 0 1377 600 600 0 120 N I 21 N "VAL**"
+$PAD
+Sh "" C 864 864 0 0 0
+Dr 864 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+.LocalClearance 590
+$EndPAD
+$EndMODULE M2 Hole
+$MODULE M2 Hole
+Po 58465 65945 0 15 4FF201C4 4FF4D7E0 F~
+Li M2 Hole
+Sc 4FF4D7E0
+AR 
+Op 0 0 0
+T0 0 0 393 393 0 98 N V 21 N "M2"
+T1 0 1377 600 600 0 120 N I 21 N "VAL**"
+$PAD
+Sh "" C 864 864 0 0 0
+Dr 864 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+.LocalClearance 590
+$EndPAD
+$EndMODULE M2 Hole
+$MODULE M2 Hole
+Po 75886 58760 0 15 4FF201C4 4FF56FFC ~~
+Li M2 Hole
+Sc 4FF56FFC
+AR 
+Op 0 0 0
+T0 0 0 393 393 0 98 N V 21 N "M2"
+T1 0 1377 600 600 0 120 N I 21 N "VAL**"
+$PAD
+Sh "" C 864 864 0 0 0
+Dr 864 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+.LocalClearance 590
+$EndPAD
+$EndMODULE M2 Hole
+$DRAWSEGMENT
+Po 0 68308 64961 48622 17717 150
+De 24 0 900 0 0
+$EndDRAWSEGMENT
+$DRAWSEGMENT
+Po 0 68308 17717 48622 64961 150
+De 24 0 900 0 0
+$EndDRAWSEGMENT
+$DRAWSEGMENT
+Po 0 34843 31496 82087 51182 150
+De 24 0 900 0 0
+$EndDRAWSEGMENT
+$DRAWSEGMENT
+Po 0 82087 31496 34843 51182 150
+De 24 0 900 0 0
+$EndDRAWSEGMENT
 $DRAWSEGMENT
 Po 0 34965 55339 34965 68339 150
 De 25 0 900 0 0
@@ -13750,14 +13834,6 @@ De 25 0 900 0 0
 $EndDRAWSEGMENT
 $DRAWSEGMENT
 Po 3 58465 41339 82087 41339 150
-De 24 0 900 0 0
-$EndDRAWSEGMENT
-$DRAWSEGMENT
-Po 0 76465 23339 40465 59339 150
-De 24 0 900 0 0
-$EndDRAWSEGMENT
-$DRAWSEGMENT
-Po 0 40465 23339 76465 59339 150
 De 24 0 900 0 0
 $EndDRAWSEGMENT
 $DRAWSEGMENT

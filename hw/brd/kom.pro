@@ -1,4 +1,4 @@
-update=Tue 26 Jun 2012 01:00:51 PM CEST
+update=Tue 03 Jul 2012 10:46:40 PM CEST
 version=1
 last_client=pcbnew
 [general]
@@ -65,9 +65,9 @@ EquName1=devcms
 [pcbnew]
 version=1
 LastNetListRead=kom.net
-PadDrlX=1259
-PadDimH=1259
-PadDimV=1259
+PadDrlX=864
+PadDimH=864
+PadDimV=864
 BoardThickness=630
 TxtPcbV=800
 TxtPcbH=600

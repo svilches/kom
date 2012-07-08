@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 03 Jul 2012 04:11:37 PM CEST
+EESchema Schematic File Version 2  date Mon 09 Jul 2012 01:35:10 AM CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -48,7 +48,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "komBOT"
-Date "3 jul 2012"
+Date "8 jul 2012"
 Rev ""
 Comp "Universidad Carlos III"
 Comment1 ""
@@ -2459,4 +2459,6 @@ F 1 "GND" H 13800 6230 30  0001 C CNN
 $EndComp
 Text Label 15700 4700 0    58   ~ 0
 D5
+Text Notes 16800 550  0    58   ~ 0
+Put 5.1V Zener at A0
 $EndSCHEMATC

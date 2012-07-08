@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = Sun 08 Jul 2012 10:40:13 PM CEST
+Cmp-Mod V01 Created by PcbNew date = Mon 09 Jul 2012 12:13:55 AM CEST
 
 BeginCmp
 TimeStamp = /4FF2011C;
@@ -214,14 +214,14 @@ BeginCmp
 TimeStamp = /4FE2F5D4;
 Reference = I1;
 ValeurCmp = I2C;
-IdModule  = CON1X4;
+IdModule  = CON1X4_KOM;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE2F5BD;
 Reference = I2;
 ValeurCmp = I2C;
-IdModule  = CON1X4;
+IdModule  = CON1X4_KOM;
 EndCmp
 
 BeginCmp
@@ -319,105 +319,105 @@ BeginCmp
 TimeStamp = /4FE233FB;
 Reference = P3;
 ValeurCmp = D2;
-IdModule  = CON1X4;
+IdModule  = CON1X4_KOM;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE24FF8;
 Reference = P4;
 ValeurCmp = D5;
-IdModule  = CON1X4;
+IdModule  = CON1X4_KOM;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE25003;
 Reference = P5;
 ValeurCmp = D6;
-IdModule  = CON1X4;
+IdModule  = CON1X4_KOM;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE2500E;
 Reference = P6;
 ValeurCmp = A1;
-IdModule  = CON1X4;
+IdModule  = CON1X4_KOM;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE25019;
 Reference = P7;
 ValeurCmp = A2;
-IdModule  = CON1X4;
+IdModule  = CON1X4_KOM;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE25024;
 Reference = P8;
 ValeurCmp = A3;
-IdModule  = CON1X4;
+IdModule  = CON1X4_KOM;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE26C90;
 Reference = P9;
 ValeurCmp = IR_Scanner;
-IdModule  = CON1X4;
+IdModule  = CON1X4_KOM;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE29E85;
 Reference = P10;
 ValeurCmp = X0;
-IdModule  = CON1X4;
+IdModule  = CON1X4_KOM;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE2A909;
 Reference = P11;
 ValeurCmp = X1;
-IdModule  = CON1X4;
+IdModule  = CON1X4_KOM;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE2A915;
 Reference = P12;
 ValeurCmp = X2;
-IdModule  = CON1X4;
+IdModule  = CON1X4_KOM;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE2A926;
 Reference = P13;
 ValeurCmp = X3;
-IdModule  = CON1X4;
+IdModule  = CON1X4_KOM;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE2A92C;
 Reference = P14;
 ValeurCmp = X4;
-IdModule  = CON1X4;
+IdModule  = CON1X4_KOM;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE2A932;
 Reference = P15;
 ValeurCmp = X5;
-IdModule  = CON1X4;
+IdModule  = CON1X4_KOM;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE2A938;
 Reference = P16;
 ValeurCmp = X6;
-IdModule  = CON1X4;
+IdModule  = CON1X4_KOM;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE2A93E;
 Reference = P17;
 ValeurCmp = X7;
-IdModule  = CON1X4;
+IdModule  = CON1X4_KOM;
 EndCmp
 
 BeginCmp

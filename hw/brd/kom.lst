@@ -1,26 +1,28 @@
-eeschema (2011-nov-30)-testing  >> Creation date: Thu 21 Jun 2012 12:15:15 PM CEST
+eeschema (2011-nov-30)-testing  >> Creation date: Mon 09 Jul 2012 01:44:45 AM CEST
 
 #Cmp ( order = Reference )
-| AREF1      CONN_1      
+| BC1        BC547       
 | BT1        BLUETOOTHMOD_DX
-| BypC1      IR          
-| BypC2      H           
-| BypC3      Servo       
-| BypC4      US          
-| BypC5      Mux         
 | C1         100nF       
-| C2         100uF(min)  
-| C3         22pF        
-| C4         0.1u        
-| C5         22pF        
-| C6         100uF(min)  
-| CP1        PWR1        
-| CP2        PWR2        
-| CP3        LMotor      
-| CP4        RMotor      
-| D1         DIODE       
-| D2         RSSI        
-| D3         LED         
+| C2         22pF        
+| C3         0.1u        
+| C4         22pF        
+| C5         100n MUX    
+| C6         100n AVR    
+| C7         100n AVCC   
+| C8         8.2pF Radio 
+| C9         100nF MotorL
+| C10        100nF MotorR
+| CAP1       100uF InCap 
+| CAP2       10uF IR     
+| CAP3       100uF HBridge
+| CAP4       10uF US     
+| CAP5       1uF Radio   
+| CP1        LMotor      
+| CP2        RMotor      
+| D1         RSSI        
+| D2         UVLO        
+| D3         ON          
 | D4         IR_LED      
 | D5         IR_LED      
 | D6         IR_LED      
@@ -28,36 +30,37 @@ eeschema (2011-nov-30)-testing  >> Creation date: Thu 21 Jun 2012 12:15:15 PM CE
 | D8         IR_LD271    
 | D9         IR_LD271    
 | D10        IR_LD271    
-| F1         FUSE        
-| H1         HEAD3X2     
+| F1         1.1A Fuse   
+| I1         I2C         
+| I2         I2C         
 | IC1        ATMEGA328-P 
 | IC2        4067D       
 | IC3        L293D       
-| J?1        EXT         
+| InvPolDiode1 200mA IPP   
+| J1         LiPo        
+| J2         EXT         
 | JP1        ServoScanner
-| JP2        JP_4        
-| JP3        JP_4        
-| LED1       LED_ARBG    
-| LED2       LED_ARBG    
-| LED3       LED_ARBG    
+| LED1       LED_RCGB    
+| LED2       LED_RCGB    
+| LED3       LED_RCGB    
 | M1         XBEE        
-| P1         Batt        
-| P2         Serial      
-| P4         GPIO_4PIN   
-| P5         GPIO_4PIN   
-| P6         GPIO_4PIN   
-| P7         GPIO_4PIN   
-| P8         GPIO_4PIN   
-| P9         GPIO_4PIN   
-| P10        IR_Scanner  
-| P11        GPIO_4PIN   
-| P12        GPIO_4PIN   
-| P13        GPIO_4PIN   
-| P14        GPIO_4PIN   
-| P15        GPIO_4PIN   
-| P16        GPIO_4PIN   
-| P17        GPIO_4PIN   
-| P18        GPIO_4PIN   
+| P1         Serial      
+| P2         ARef        
+| P3         D2          
+| P4         D5          
+| P5         D6          
+| P6         A1          
+| P7         A2          
+| P8         A3          
+| P9         IR_Scanner  
+| P10        X0          
+| P11        X1          
+| P12        X2          
+| P13        X3          
+| P14        X4          
+| P15        X5          
+| P16        X6          
+| P17        X7          
 | Q1         PT480F      
 | Q2         PT480F      
 | Q3         PT480F      
@@ -65,58 +68,56 @@ eeschema (2011-nov-30)-testing  >> Creation date: Thu 21 Jun 2012 12:15:15 PM CE
 | R1         1.5K        
 | R2         1.5K        
 | R3         10K         
-| R4         220         
-| R5         15K         
-| R6         10K         
+| R4         15K         
+| R5         10K         
+| R6         220         
 | R7         1k          
 | R8         348         
 | R9         10K         
-| R10        220         
+| R10        330         
 | R11        2.2K        
-| R12        220         
+| R12        500         
 | R13        2.2K        
-| R14        220         
-| R15        500         
-| R16        2.2K        
-| R17        220         
-| R18        2.2K        
-| R19        180         
-| R20        180         
-| R21        120         
-| R22        15          
-| SW1        SW_PUSH     
-| SW2        PwrSelect   
+| R14        2.2K        
+| R15        2.2K        
+| R16        180         
+| R17        180         
+| R18        120         
+| R19        20          
+| SW1        SW_RESET    
+| SW2        PwrOn       
 | SW3        PWR_Control 
 | SW4        TEST        
-| U1         LM7833      
-| U2         74LS125     
-| U3         TC54        
-| U4         PTH08000WAZT
-| U5         ULN2003A    
+| U1         10uH        
+| U2         MCP1700-3302E
+| U3         74LS125     
+| U4         TC54        
+| U5         PTH08000WAZT
 | US1        US_L        
 | US2        US_R        
 | X1         16MHz       
 #End Cmp
 
 #Cmp ( order = Value )
-| CONN_1       AREF1     
+| BC547        BC1       
 | BLUETOOTHMOD_DX BT1       
-| IR           BypC1     
-| H            BypC2     
-| Servo        BypC3     
-| US           BypC4     
-| Mux          BypC5     
-| 22pF         C3        
-| 22pF         C5        
-| 0.1u         C4        
+| 8.2pF Radio  C8        
+| 22pF         C2        
+| 22pF         C4        
+| 0.1u         C3        
+| 100nF MotorL C9        
+| 100nF MotorR C10       
+| 100n AVCC    C7        
+| 100n AVR     C6        
+| 100n MUX     C5        
 | 100nF        C1        
-| 100uF(min)   C2        
-| 100uF(min)   C6        
-| PWR1         CP1       
-| PWR2         CP2       
-| LMotor       CP3       
-| RMotor       CP4       
-| DIODE        D1        
+| 100uF InCap  CAP1      
+| 10uF IR      CAP2      
+| 100uF HBridge CAP3      
+| 10uF US      CAP4      
+| 1uF Radio    CAP5      
+| LMotor       CP1       
+| RMotor       CP2       
 | IR_LD271     D8        
 | IR_LD271     D9        
 | IR_LD271     D10       
@@ -124,73 +125,72 @@ eeschema (2011-nov-30)-testing  >> Creation date: Thu 21 Jun 2012 12:15:15 PM CE
 | IR_LED       D5        
 | IR_LED       D6        
 | IR_LED       D7        
-| LED          D3        
-| RSSI         D2        
-| FUSE         F1        
-| HEAD3X2      H1        
+| ON           D3        
+| RSSI         D1        
+| UVLO         D2        
+| 1.1A Fuse    F1        
+| I2C          I1        
+| I2C          I2        
 | ATMEGA328-P  IC1       
 | 4067D        IC2       
 | L293D        IC3       
-| EXT          J?1       
+| 200mA IPP    InvPolDiode1
+| EXT          J2        
+| LiPo         J1        
 | ServoScanner JP1       
-| JP_4         JP2       
-| JP_4         JP3       
-| LED_ARBG     LED1      
-| LED_ARBG     LED2      
-| LED_ARBG     LED3      
+| LED_RCGB     LED1      
+| LED_RCGB     LED2      
+| LED_RCGB     LED3      
 | XBEE         M1        
-| Batt         P1        
-| GPIO_4PIN    P4        
-| GPIO_4PIN    P5        
-| GPIO_4PIN    P6        
-| GPIO_4PIN    P7        
-| GPIO_4PIN    P8        
-| GPIO_4PIN    P9        
-| GPIO_4PIN    P11       
-| GPIO_4PIN    P12       
-| GPIO_4PIN    P13       
-| GPIO_4PIN    P14       
-| GPIO_4PIN    P15       
-| GPIO_4PIN    P16       
-| GPIO_4PIN    P17       
-| GPIO_4PIN    P18       
-| IR_Scanner   P10       
-| Serial       P2        
+| A1           P6        
+| A2           P7        
+| A3           P8        
+| ARef         P2        
+| D2           P3        
+| D5           P4        
+| D6           P5        
+| IR_Scanner   P9        
+| Serial       P1        
+| X0           P10       
+| X1           P11       
+| X2           P12       
+| X3           P13       
+| X4           P14       
+| X5           P15       
+| X6           P16       
+| X7           P17       
 | PT480F       Q1        
 | PT480F       Q2        
 | PT480F       Q3        
 | PT480F       Q4        
-| 15           R22       
-| 120          R21       
-| 180          R20       
-| 180          R19       
-| 220          R10       
-| 220          R12       
-| 220          R14       
-| 220          R4        
-| 220          R17       
+| 20           R19       
+| 120          R18       
+| 180          R17       
+| 180          R16       
+| 220          R6        
+| 330          R10       
 | 348          R8        
-| 500          R15       
+| 500          R12       
 | 1k           R7        
 | 1.5K         R2        
 | 1.5K         R1        
-| 2.2K         R18       
 | 2.2K         R11       
 | 2.2K         R13       
-| 2.2K         R16       
+| 2.2K         R14       
+| 2.2K         R15       
 | 10K          R9        
-| 10K          R6        
+| 10K          R5        
 | 10K          R3        
-| 15K          R5        
-| TEST         SW4       
+| 15K          R4        
+| SW_RESET     SW1       
+| PwrOn        SW2       
 | PWR_Control  SW3       
-| PwrSelect    SW2       
-| SW_PUSH      SW1       
-| 74LS125      U2        
-| LM7833       U1        
-| PTH08000WAZT U4        
-| TC54         U3        
-| ULN2003A     U5        
+| TEST         SW4       
+| 10uH         U1        
+| 74LS125      U3        
+| MCP1700-3302E U2        
+| PTH08000WAZT U5        
+| TC54         U4        
 | US_L         US1       
 | US_R         US2       
 | 16MHz        X1        

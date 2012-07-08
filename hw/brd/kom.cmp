@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2011-nov-30)-testing date = Mon 02 Jul 2012 10:11:53 PM CEST
+Cmp-Mod V01 Created by PcbNew date = Sun 08 Jul 2012 10:40:13 PM CEST
 
 BeginCmp
 TimeStamp = /4FF2011C;
@@ -18,70 +18,70 @@ BeginCmp
 TimeStamp = /4FD09319;
 Reference = C1;
 ValeurCmp = 100nF;
-IdModule  = CON-MUL;
+IdModule  = CON-MUL-NoVal;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FD08536;
 Reference = C2;
 ValeurCmp = 22pF;
-IdModule  = CON-MUL;
+IdModule  = CON-MUL-NoVal;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FD32B7A;
 Reference = C3;
 ValeurCmp = 0.1u;
-IdModule  = CON-MUL;
+IdModule  = CON-MUL-NoVal;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FD08545;
 Reference = C4;
 ValeurCmp = 22pF;
-IdModule  = CON-MUL;
+IdModule  = CON-MUL-NoVal;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FEAF88E;
 Reference = C5;
 ValeurCmp = 100n_MUX;
-IdModule  = CON-MUL;
+IdModule  = CON-MUL-NoVal;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE874B6;
 Reference = C6;
 ValeurCmp = 100n_AVR;
-IdModule  = CON-MUL;
+IdModule  = CON-MUL-NoVal;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE85DC0;
 Reference = C7;
 ValeurCmp = 100n_AVCC;
-IdModule  = CON-MUL;
+IdModule  = CON-MUL-NoVal;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE85D74;
 Reference = C8;
 ValeurCmp = 8.2pF_Radio;
-IdModule  = CON-MUL;
+IdModule  = CON-MUL-NoVal;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE84566;
 Reference = C9;
 ValeurCmp = 100nF_MotorL;
-IdModule  = CON-MUL;
+IdModule  = CON-MUL-NoVal;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE8BAFD;
 Reference = C10;
 ValeurCmp = 100nF_MotorR;
-IdModule  = CON-MUL;
+IdModule  = CON-MUL-NoVal;
 EndCmp
 
 BeginCmp
@@ -452,133 +452,133 @@ BeginCmp
 TimeStamp = /4FE2900C;
 Reference = R1;
 ValeurCmp = 1.5K;
-IdModule  = R3;
+IdModule  = Resistor_3;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE2901E;
 Reference = R2;
 ValeurCmp = 1.5K;
-IdModule  = R3;
+IdModule  = Resistor_3;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FD089B0;
 Reference = R3;
 ValeurCmp = 10K;
-IdModule  = R3;
+IdModule  = Resistor_3;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FCE1402;
 Reference = R4;
 ValeurCmp = 15K;
-IdModule  = R3;
+IdModule  = Resistor_3;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FCE13FC;
 Reference = R5;
 ValeurCmp = 10K;
-IdModule  = R3;
+IdModule  = Resistor_3;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FD32F25;
 Reference = R6;
 ValeurCmp = 220;
-IdModule  = R3;
+IdModule  = Resistor_3;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FCE13EA;
 Reference = R7;
 ValeurCmp = 1k;
-IdModule  = R3;
+IdModule  = Resistor_3;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FCE13CC;
 Reference = R8;
 ValeurCmp = 348;
-IdModule  = R3;
+IdModule  = Resistor_3;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FD32B6E;
 Reference = R9;
 ValeurCmp = 10K;
-IdModule  = R3;
+IdModule  = Resistor_3;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE4BCBF;
 Reference = R10;
 ValeurCmp = 330;
-IdModule  = R3;
+IdModule  = Resistor_3;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FD74A26;
 Reference = R11;
 ValeurCmp = 2.2K;
-IdModule  = R3;
+IdModule  = Resistor_3;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE259B1;
 Reference = R12;
 ValeurCmp = 500;
-IdModule  = R3;
+IdModule  = Resistor_3;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FD766C7;
 Reference = R13;
 ValeurCmp = 2.2K;
-IdModule  = R3;
+IdModule  = Resistor_3;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FD766F0;
 Reference = R14;
 ValeurCmp = 2.2K;
-IdModule  = R3;
+IdModule  = Resistor_3;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FD76719;
 Reference = R15;
 ValeurCmp = 2.2K;
-IdModule  = R3;
+IdModule  = Resistor_3;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE22376;
 Reference = R16;
 ValeurCmp = 180;
-IdModule  = R3;
+IdModule  = Resistor_3;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE22383;
 Reference = R17;
 ValeurCmp = 180;
-IdModule  = R3;
+IdModule  = Resistor_3;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE22389;
 Reference = R18;
 ValeurCmp = 120;
-IdModule  = R3;
+IdModule  = Resistor_3;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE0E9EA;
 Reference = R19;
 ValeurCmp = 20;
-IdModule  = R3;
+IdModule  = Resistor_3;
 EndCmp
 
 BeginCmp
@@ -613,7 +613,7 @@ BeginCmp
 TimeStamp = /4FE85F66;
 Reference = U1;
 ValeurCmp = 10uH;
-IdModule  = R3;
+IdModule  = Resistor_3;
 EndCmp
 
 BeginCmp

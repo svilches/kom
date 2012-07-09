@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Mon 09 Jul 2012 06:23:19 PM CEST
+PCBNEW-BOARD Version 1 date Mon 09 Jul 2012 07:22:21 PM CEST
 
 # Created by Pcbnew(2011-nov-30)-testing
 
@@ -7,11 +7,11 @@ encoding utf-8
 Units deci-mils
 LayerCount 2
 EnabledLayers 1FFF8001
-VisibleLayers 10200000
+VisibleLayers 10308001
 Links 245
 NoConn 0
 Di 30965 6495 93260 72147
-Ndraw 122
+Ndraw 128
 Ntrack 852
 Nzone 0
 BoardThickness 630
@@ -21,13 +21,13 @@ $EndGENERAL
 
 $SHEETDESCR
 Sheet A4 11693 8268
-Title "komBOT"
+Title "KOMbot"
 Date "9 jul 2012"
-Rev ""
-Comp "Universidad Carlos III"
-Comment1 ""
-Comment2 ""
-Comment3 ""
+Rev "Alpha"
+Comp "Universidad Carlos III de Madrid"
+Comment1 "PCB diameter: 130mm"
+Comment2 "Creative Commons by-sa license"
+Comment3 "Sergio Vilches 2012"
 Comment4 ""
 $EndSHEETDESCR
 
@@ -71,7 +71,7 @@ PadDrill 276
 Pad2MaskClearance 100
 AuxiliaryAxisOrg 58465 41339
 VisibleElements 7FFFFF19
-PcbPlotParams (pcbplotparams (layerselection 288391169) (usegerberextensions true) (excludeedgelayer false) (linewidth 60) (plotframeref true) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 1) (pscolor true) (psnegative false) (psa4output true) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk true) (subtractmaskfromsilk false) (outputformat 2) (mirror false) (drillshape 2) (scaleselection 1) (outputdirectory /media/mmedia/workspace/kom/hw/fab/postscript/))
+PcbPlotParams (pcbplotparams (layerselection 288391169) (usegerberextensions true) (excludeedgelayer false) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 1) (pscolor true) (psnegative false) (psa4output true) (plotreference true) (plotvalue false) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 2) (scaleselection 1) (outputdirectory /media/mmedia/workspace/kom/hw/fab/PCB_Gerbers/))
 $EndSETUP
 
 $EQUIPOT
@@ -1798,14 +1798,14 @@ Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE LED-3MM
 $MODULE LED-3MM
-Po 58465 55589 1800 15 4FFA13CA 4FEA2F43 ~~
+Po 58465 55589 1800 15 4FFB0F37 4FEA2F43 ~~
 Li LED-3MM
 Cd LED 3mm - Lead pitch 100mil (2,54mm)
 Kw LED led 3mm 3MM 100mil 2,54mm
 Sc 4FEA2F43
 AR /4FE4BCA1
 Op 0 0 0
-T0 -1500 0 700 700 1800 100 N V 21 N "D3"
+T0 -1200 -1050 700 700 1800 100 N V 21 N "D3"
 T1 0 1500 800 800 1800 100 N V 21 N "ON"
 DS 720 500 720 -500 100 21
 DA 100 0 -500 0 398 60 21
@@ -2435,12 +2435,12 @@ Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE TO92-123
 $MODULE IR_PHT_Side
-Po 74215 39839 900 15 4FFA070D 4FEA2FC4 ~~
+Po 74215 39839 900 15 4FFB0F24 4FEA2FC4 ~~
 Li IR_PHT_Side
 Sc 4FEA2FC4
 AR /4FD766DE
 Op 0 0 0
-T0 0 -1000 599 599 900 120 N V 21 N "Q3"
+T0 -1500 -2050 599 599 900 120 N V 21 N "Q3"
 T1 2000 0 600 600 900 120 N I 21 N "PT480F"
 DS -1000 250 -750 0 150 21
 DS -1500 250 -1000 -250 150 21
@@ -2537,12 +2537,12 @@ Po 500 0
 $EndPAD
 $EndMODULE IR_PHT_Side
 $MODULE IR_PHT_Side
-Po 42715 42839 2700 15 4FFA06D3 4FEA2F91 ~~
+Po 42715 42839 2700 15 4FFB0EC0 4FEA2F91 ~~
 Li IR_PHT_Side
 Sc 4FEA2F91
 AR /4FD74904
 Op 0 0 0
-T0 0 -1000 599 599 2700 120 N V 21 N "Q1"
+T0 -800 -1050 599 599 2700 120 N V 21 N "Q1"
 T1 2500 -1500 600 600 2700 120 N I 21 N "PT480F"
 DS -1000 250 -750 0 150 21
 DS -1500 250 -1000 -250 150 21
@@ -6069,15 +6069,15 @@ Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE R3-LARGE_PADS
 $MODULE DIP-16__300_ELL
-Po 46465 30839 0 15 00200000 4FEA3063 ~~
+Po 46465 30839 0 15 4FFB0E2A 4FEA3063 ~~
 Li DIP-16__300_ELL
 Cd 16 pins DIL package, elliptical pads
 Kw DIL
 Sc 4FEA3063
 AR /4FD736BB
 Op 0 0 0
-T0 -2500 -500 600 450 0 120 N V 21 N "IC3"
-T1 500 500 600 450 0 120 N V 21 N "L293D"
+T0 -2250 0 600 450 0 120 N V 21 N "IC3"
+T1 1750 0 600 450 0 120 N V 21 N "L293D"
 DS -4500 -500 -4500 -500 150 21
 DS -4500 -500 -4000 -500 150 21
 DS -4000 -500 -4000 500 150 21
@@ -6205,6 +6205,34 @@ Of 0 0 0
 Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE DIP-16__300_ELL
+$TEXTPCB
+Te "RA_X10"
+Po 73165 39839 600 800 120 900
+De 21 1 0 Normal C
+$EndTEXTPCB
+$TEXTPCB
+Te "RB_X11"
+Po 73165 45639 600 800 120 900
+De 21 1 0 Normal C
+$EndTEXTPCB
+$TEXTPCB
+Te "LB_X9"
+Po 43765 37239 600 800 120 900
+De 21 1 0 Normal C
+$EndTEXTPCB
+$TEXTPCB
+Te "LA_X8"
+Po 43765 45039 600 800 120 900
+De 21 1 0 Normal C
+$EndTEXTPCB
+$DRAWSEGMENT
+Po 0 49965 35589 50465 35089 150
+De 21 0 900 0 0
+$EndDRAWSEGMENT
+$DRAWSEGMENT
+Po 0 49965 35089 50465 35589 150
+De 21 0 900 0 0
+$EndDRAWSEGMENT
 $TEXTPCB
 Te "X14"
 Po 63715 28589 500 600 120 0

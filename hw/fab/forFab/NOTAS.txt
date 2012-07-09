@@ -1,0 +1,6 @@
+Proyecto KOM - Robot KOMbot
+== Sergio Vilches ==
+- PCB circular, diámetro 130mm
+- Hay 2 rendijas en el interior de la PCB a mecanizar. Las ruedas del robot atraviesan la PCB!!! Aparecen en el archivo kom-PCB_Edges.gbr
+
+

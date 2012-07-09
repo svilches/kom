@@ -1,0 +1,24 @@
+Drill report for /media/mmedia/workspace/kom/hw/brd/kom.brd
+Created on Mon 09 Jul 2012 07:19:37 PM CEST
+Selected Drill Unit: Imperial (inches)
+
+Drill report for plated through holes :
+T1  0.020"  0.51mm  (58 holes)
+T2  0.025"  0.64mm  (1 hole)
+T3  0.026"  0.66mm  (20 holes)
+T4  0.028"  0.70mm  (12 holes)
+T5  0.032"  0.81mm  (193 holes)
+T6  0.035"  0.90mm  (37 holes)
+T7  0.040"  1.02mm  (88 holes)  (with 3 slots)
+T8  0.086"  2.19mm  (10 holes)
+T9  0.126"  3.20mm  (4 holes)
+T10  0.315"  8.00mm  (1 hole)
+
+Total plated holes count 424
+
+
+Drill report for unplated through holes :
+
+Total unplated holes count 0
+
+

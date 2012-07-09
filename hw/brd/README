@@ -1,0 +1,2 @@
+I'm using the latest kicad (testing) from Adam Wolf's ppa. To use it in Ubuntu:
+sudo add-apt-repository ppa:adamwolf/kicad-testing-daily

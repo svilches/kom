@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = Mon 09 Jul 2012 12:13:55 AM CEST
+Cmp-Mod V01 Created by PcbNew date = Mon 09 Jul 2012 05:30:58 PM CEST
 
 BeginCmp
 TimeStamp = /4FF2011C;
@@ -277,21 +277,21 @@ BeginCmp
 TimeStamp = /4FF21103;
 Reference = LED1;
 ValeurCmp = LED_RCGB;
-IdModule  = LED5_RGB;
+IdModule  = LED5_RGB_OVAL;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FF21129;
 Reference = LED2;
 ValeurCmp = LED_RCGB;
-IdModule  = LED5_RGB;
+IdModule  = LED5_RGB_OVAL;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FF2112F;
 Reference = LED3;
 ValeurCmp = LED_RCGB;
-IdModule  = LED5_RGB;
+IdModule  = LED5_RGB_OVAL;
 EndCmp
 
 BeginCmp

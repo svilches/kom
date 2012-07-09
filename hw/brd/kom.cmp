@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = Mon 09 Jul 2012 05:30:58 PM CEST
+Cmp-Mod V01 Created by PcbNew date = Mon 09 Jul 2012 05:37:50 PM CEST
 
 BeginCmp
 TimeStamp = /4FF2011C;
@@ -242,7 +242,7 @@ BeginCmp
 TimeStamp = /4FD736BB;
 Reference = IC3;
 ValeurCmp = L293D;
-IdModule  = DIP-16__300;
+IdModule  = DIP-16__300_ELL;
 EndCmp
 
 BeginCmp
@@ -452,133 +452,133 @@ BeginCmp
 TimeStamp = /4FE2900C;
 Reference = R1;
 ValeurCmp = 1.5K;
-IdModule  = Resistor_3;
+IdModule  = R3-LARGE_PADS;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE2901E;
 Reference = R2;
 ValeurCmp = 1.5K;
-IdModule  = Resistor_3;
+IdModule  = R3-LARGE_PADS;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FD089B0;
 Reference = R3;
 ValeurCmp = 10K;
-IdModule  = Resistor_3;
+IdModule  = R3-LARGE_PADS;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FCE1402;
 Reference = R4;
 ValeurCmp = 15K;
-IdModule  = Resistor_3;
+IdModule  = R3-LARGE_PADS;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FCE13FC;
 Reference = R5;
 ValeurCmp = 10K;
-IdModule  = Resistor_3;
+IdModule  = R3-LARGE_PADS;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FD32F25;
 Reference = R6;
 ValeurCmp = 220;
-IdModule  = Resistor_3;
+IdModule  = R3-LARGE_PADS;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FCE13EA;
 Reference = R7;
 ValeurCmp = 1k;
-IdModule  = Resistor_3;
+IdModule  = R3-LARGE_PADS;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FCE13CC;
 Reference = R8;
 ValeurCmp = 348;
-IdModule  = Resistor_3;
+IdModule  = R3-LARGE_PADS;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FD32B6E;
 Reference = R9;
 ValeurCmp = 10K;
-IdModule  = Resistor_3;
+IdModule  = R3-LARGE_PADS;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE4BCBF;
 Reference = R10;
 ValeurCmp = 330;
-IdModule  = Resistor_3;
+IdModule  = R3-LARGE_PADS;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FD74A26;
 Reference = R11;
 ValeurCmp = 2.2K;
-IdModule  = Resistor_3;
+IdModule  = R3-LARGE_PADS;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE259B1;
 Reference = R12;
 ValeurCmp = 500;
-IdModule  = Resistor_3;
+IdModule  = R3-LARGE_PADS;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FD766C7;
 Reference = R13;
 ValeurCmp = 2.2K;
-IdModule  = Resistor_3;
+IdModule  = R3-LARGE_PADS;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FD766F0;
 Reference = R14;
 ValeurCmp = 2.2K;
-IdModule  = Resistor_3;
+IdModule  = R3-LARGE_PADS;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FD76719;
 Reference = R15;
 ValeurCmp = 2.2K;
-IdModule  = Resistor_3;
+IdModule  = R3-LARGE_PADS;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE22376;
 Reference = R16;
 ValeurCmp = 180;
-IdModule  = Resistor_3;
+IdModule  = R3-LARGE_PADS;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE22383;
 Reference = R17;
 ValeurCmp = 180;
-IdModule  = Resistor_3;
+IdModule  = R3-LARGE_PADS;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE22389;
 Reference = R18;
 ValeurCmp = 120;
-IdModule  = Resistor_3;
+IdModule  = R3-LARGE_PADS;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE0E9EA;
 Reference = R19;
 ValeurCmp = 20;
-IdModule  = Resistor_3;
+IdModule  = R3-LARGE_PADS;
 EndCmp
 
 BeginCmp

@@ -3,7 +3,7 @@
 /* NOTES:
  - Switching analog pins in close temporal proximity to making A/D reading can introduce jitter...
  - 
-*/
+ */
 
 ///////////////////
 // Hardware defines
@@ -69,7 +69,7 @@ void setup() {
   digitalWrite(PUSH_PIN, HIGH);
 
   Serial.begin(57600);
-  
+
   irServo.attach(SERVO_PIN);
 }
 
@@ -79,7 +79,7 @@ void setMotorVal(int lv, int rv){
   if (lv>255) lv = 255;
   if (lv<-255) lv = -255;
 
-  if (lv>0){  // CW
+  if (lv>=0){  // CW
     digitalWrite(L_DIR_PIN,LOW);
     analogWrite(L_VEL_PIN,lv);
   }
@@ -88,12 +88,13 @@ void setMotorVal(int lv, int rv){
     digitalWrite(L_DIR_PIN,HIGH);
     analogWrite(L_VEL_PIN,255 + lv);
   }
-  
+
+  rv=-rv;
   // Right motor
   if (rv>255) rv = 255;
   if (rv<-255) rv = -255;
 
-  if (rv>0){  // CW
+  if (rv>=0){  // CW
     digitalWrite(R_DIR_PIN,LOW);
     analogWrite(R_VEL_PIN,rv);
   }
@@ -105,8 +106,6 @@ void setMotorVal(int lv, int rv){
 }
 
 void setMux(int D, int C, int B, int A){ // MSB - LSB
-{
-  
   digitalWrite(MUX_D_PIN , D);
   digitalWrite(MUX_C_PIN , C);
   digitalWrite(MUX_B_PIN , B);
@@ -115,6 +114,21 @@ void setMux(int D, int C, int B, int A){ // MSB - LSB
 
 void loop() 
 { 
-  
+  if (digitalRead(PUSH_PIN)){
+    digitalWrite(LED_R_PIN,LOW);
+    setMotorVal(50,0);
+    setMux(1,0,0,0);
+    if (analogRead(MUX_X_PIN) > 512) digitalWrite(LED_B_PIN,HIGH);
+    else digitalWrite(LED_B_PIN,LOW);
+  }
+  else {
+    digitalWrite(LED_B_PIN,LOW);
+    setMotorVal(0,50);
+    setMux(1,0,1,0);
+    if (analogRead(MUX_X_PIN) > 512) digitalWrite(LED_R_PIN,HIGH);
+    else digitalWrite(LED_R_PIN,LOW);
+  }
 } 
+
+
 

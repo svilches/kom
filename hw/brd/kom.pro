@@ -1,4 +1,4 @@
-update=Tue 03 Jul 2012 10:46:40 PM CEST
+update=Thu 23 Aug 2012 10:03:53 AM EDT
 version=1
 last_client=pcbnew
 [general]
@@ -65,9 +65,9 @@ EquName1=devcms
 [pcbnew]
 version=1
 LastNetListRead=kom.net
-PadDrlX=864
-PadDimH=864
-PadDimV=864
+PadDrlX=276
+PadDimH=394
+PadDimV=600
 BoardThickness=630
 TxtPcbV=800
 TxtPcbH=600
@@ -78,7 +78,7 @@ VEgarde=100
 DrawLar=150
 EdgeLar=150
 TxtLar=120
-MSegLar=150
+MSegLar=50
 [pcbnew/libraries]
 LibDir=/home/svilches/workspace/kom/hw/brd/lib
 LibName1=sockets

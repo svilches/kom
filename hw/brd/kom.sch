@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 09 Jul 2012 01:35:10 AM CEST
+EESchema Schematic File Version 2  date Thu 23 Aug 2012 10:28:03 AM EDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -48,7 +48,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "komBOT"
-Date "8 jul 2012"
+Date "23 aug 2012"
 Rev ""
 Comp "Universidad Carlos III"
 Comment1 ""
@@ -69,19 +69,19 @@ $EndComp
 $Comp
 L GND #PWR01
 U 1 1 4FCE1384
-P 4350 1450
-F 0 "#PWR01" H 4350 1450 30  0001 C CNN
-F 1 "GND" H 4350 1380 30  0001 C CNN
-	1    4350 1450
+P 3350 1450
+F 0 "#PWR01" H 3350 1450 30  0001 C CNN
+F 1 "GND" H 3350 1380 30  0001 C CNN
+	1    3350 1450
 	1    0    0    -1  
 $EndComp
 $Comp
 L PWR_FLAG #FLG02
 U 1 1 4FCE138A
-P 4350 1400
-F 0 "#FLG02" H 4350 1495 30  0001 C CNN
-F 1 "PWR_FLAG" H 4350 1580 30  0000 C CNN
-	1    4350 1400
+P 3350 1400
+F 0 "#FLG02" H 3350 1495 30  0001 C CNN
+F 1 "PWR_FLAG" H 3350 1580 30  0000 C CNN
+	1    3350 1400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -396,32 +396,6 @@ Text Label 2100 8900 0    58   ~ 0
 AT_DIN
 NoConn ~ 2100 9000
 $Comp
-L DIPS_04 SW3
-U 1 1 4FD321FA
-P 7250 1550
-F 0 "SW3" V 7000 1550 60  0000 C CNN
-F 1 "PWR_Control" V 7500 1550 59  0000 C CNN
-	1    7250 1550
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V #PWR017
-U 1 1 4FD32209
-P 7300 1300
-F 0 "#PWR017" H 7300 1390 20  0001 C CNN
-F 1 "+5V" H 7300 1390 30  0000 C CNN
-	1    7300 1300
-	1    0    0    -1  
-$EndComp
-Text Label 7100 1950 3    58   ~ 0
-GND_IR
-Text Label 7200 1950 3    58   ~ 0
-5V_Encoders
-Text Label 7300 1950 3    58   ~ 0
-5V_Radio
-Text Label 7400 1950 3    58   ~ 0
-5V_IRScanner
-$Comp
 L GND #PWR018
 U 1 1 4FD32B62
 P 3550 8450
@@ -460,10 +434,10 @@ $EndComp
 $Comp
 L 74LS125 U3
 U 1 1 4FD32B86
-P 3600 9050
-F 0 "U3" H 3600 9150 50  0000 L BNN
-F 1 "74LS125" H 3650 8900 40  0000 L TNN
-	1    3600 9050
+P 3200 9050
+F 0 "U3" H 3200 9150 50  0000 L BNN
+F 1 "74LS125" H 3250 8900 40  0000 L TNN
+	1    3200 9050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -506,28 +480,26 @@ $EndComp
 $Comp
 L GND #PWR023
 U 1 1 4FD32EF8
-P 3450 9400
-F 0 "#PWR023" H 3450 9400 30  0001 C CNN
-F 1 "GND" H 3450 9330 30  0001 C CNN
-	1    3450 9400
+P 3050 9400
+F 0 "#PWR023" H 3050 9400 30  0001 C CNN
+F 1 "GND" H 3050 9330 30  0001 C CNN
+	1    3050 9400
 	1    0    0    -1  
 $EndComp
 $Comp
 L +3.3V #PWR024
 U 1 1 4FD32F07
-P 3450 8800
-F 0 "#PWR024" H 3450 8760 30  0001 C CNN
-F 1 "+3.3V" H 3450 8910 30  0000 C CNN
-	1    3450 8800
+P 3050 8800
+F 0 "#PWR024" H 3050 8760 30  0001 C CNN
+F 1 "+3.3V" H 3050 8910 30  0000 C CNN
+	1    3050 8800
 	1    0    0    -1  
 $EndComp
-Text Label 3150 8150 2    58   ~ 0
-5V_Radio
 Text Label 5150 6000 0    58   ~ 0
 AT_DIN
 Text Label 5150 6100 0    58   ~ 0
 AT_DOUT
-Text Label 3150 9050 2    58   ~ 0
+Text Label 2750 9050 2    58   ~ 0
 AT_DOUT
 Text Label 4050 8850 2    58   ~ 0
 AT_DIN
@@ -558,29 +530,27 @@ F 1 "GND" H 3450 9980 30  0001 C CNN
 	1    3450 10050
 	1    0    0    -1  
 $EndComp
-Text Label 7750 8850 0    58   ~ 0
-5V_Radio
 $Comp
 L GND #PWR026
 U 1 1 4FD332A5
-P 7750 9850
-F 0 "#PWR026" H 7750 9850 30  0001 C CNN
-F 1 "GND" H 7750 9780 30  0001 C CNN
-	1    7750 9850
+P 7750 10400
+F 0 "#PWR026" H 7750 10400 30  0001 C CNN
+F 1 "GND" H 7750 10330 30  0001 C CNN
+	1    7750 10400
 	1    0    0    -1  
 $EndComp
 $Comp
 L BLUETOOTHMOD_DX BT1
 U 1 1 4FD33388
-P 7750 9350
-F 0 "BT1" V 7650 9350 59  0000 C CNN
-F 1 "BLUETOOTHMOD_DX" V 7500 9350 60  0000 C CNN
-	1    7750 9350
+P 7750 9900
+F 0 "BT1" V 7650 9900 59  0000 C CNN
+F 1 "BLUETOOTHMOD_DX" V 7500 9900 60  0000 C CNN
+	1    7750 9900
 	1    0    0    -1  
 $EndComp
-Text Label 8050 9250 0    58   ~ 0
+Text Label 8050 9800 0    58   ~ 0
 AT_DIN
-Text Label 8050 9450 0    58   ~ 0
+Text Label 8050 10000 0    58   ~ 0
 AT_DOUT
 $Comp
 L +5V #PWR027
@@ -614,7 +584,7 @@ Text Notes 1150 8200 0    58   ~ 0
 Serial
 Text Notes 1950 9500 0    58   ~ 0
 I2C
-Text Notes 7450 8650 0    58   ~ 0
+Text Notes 7450 9200 0    58   ~ 0
 Bluetooth
 Text Notes 900  3950 0    58   ~ 0
 Microcontroller Core
@@ -917,17 +887,6 @@ F 1 "IR_LD271" H 15700 6200 50  0000 C CNN
 	1    15700 6300
 	0    1    1    0   
 $EndComp
-$Comp
-L R R19
-U 1 1 4FE0E9EA
-P 15700 5050
-F 0 "R19" V 15780 5050 50  0000 C CNN
-F 1 "20" V 15700 5050 50  0000 C CNN
-	1    15700 5050
-	1    0    0    -1  
-$EndComp
-Text Label 15700 6600 3    58   ~ 0
-GND_IR
 Text Notes 9250 7750 0    58   ~ 0
 Motor Control and Encoders
 Text Notes 12800 4000 0    58   ~ 0
@@ -1007,10 +966,6 @@ F 1 "GND" H 11850 2930 30  0001 C CNN
 	1    11850 3000
 	1    0    0    -1  
 $EndComp
-Text Label 11800 2050 1    58   ~ 0
-5V_IRScanner
-Text Label 11700 3000 2    58   ~ 0
-5V_IRScanner
 Text Label 11550 2900 2    58   ~ 0
 D13
 Text Notes 8250 600  0    58   ~ 0
@@ -1020,7 +975,7 @@ L R R16
 U 1 1 4FE22376
 P 13650 5100
 F 0 "R16" V 13730 5100 50  0000 C CNN
-F 1 "180" V 13650 5100 50  0000 C CNN
+F 1 "220" V 13650 5100 50  0000 C CNN
 	1    13650 5100
 	1    0    0    1   
 $EndComp
@@ -1029,7 +984,7 @@ L R R17
 U 1 1 4FE22383
 P 13800 5100
 F 0 "R17" V 13880 5100 50  0000 C CNN
-F 1 "180" V 13800 5100 50  0000 C CNN
+F 1 "220" V 13800 5100 50  0000 C CNN
 	1    13800 5100
 	1    0    0    1   
 $EndComp
@@ -1038,12 +993,10 @@ L R R18
 U 1 1 4FE22389
 P 13950 5100
 F 0 "R18" V 14030 5100 50  0000 C CNN
-F 1 "120" V 13950 5100 50  0000 C CNN
+F 1 "180" V 13950 5100 50  0000 C CNN
 	1    13950 5100
 	1    0    0    1   
 $EndComp
-Text Notes 15950 6000 1    58   ~ 0
-40mA
 Text Notes 14850 6350 1    58   ~ 0
 Each color of each LED carries 5mA
 $Comp
@@ -1356,50 +1309,6 @@ Text Label 14350 2700 2    58   ~ 0
 X6
 Text Label 14350 2900 2    58   ~ 0
 X7
-Text Label 3350 1400 3    58   ~ 0
-GND_IR
-Text Label 3600 1400 3    58   ~ 0
-5V_Encoders
-Text Label 3850 1400 3    58   ~ 0
-5V_Radio
-Text Label 4100 1400 3    58   ~ 0
-5V_IRScanner
-$Comp
-L PWR_FLAG #FLG049
-U 1 1 4FE2D59A
-P 3350 1400
-F 0 "#FLG049" H 3350 1495 30  0001 C CNN
-F 1 "PWR_FLAG" H 3350 1580 30  0000 C CNN
-	1    3350 1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L PWR_FLAG #FLG050
-U 1 1 4FE2D5A7
-P 3600 1400
-F 0 "#FLG050" H 3600 1495 30  0001 C CNN
-F 1 "PWR_FLAG" H 3600 1580 30  0000 C CNN
-	1    3600 1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L PWR_FLAG #FLG051
-U 1 1 4FE2D5AD
-P 3850 1400
-F 0 "#FLG051" H 3850 1495 30  0001 C CNN
-F 1 "PWR_FLAG" H 3850 1580 30  0000 C CNN
-	1    3850 1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L PWR_FLAG #FLG052
-U 1 1 4FE2D5B3
-P 4100 1400
-F 0 "#FLG052" H 4100 1495 30  0001 C CNN
-F 1 "PWR_FLAG" H 4100 1580 30  0000 C CNN
-	1    4100 1400
-	1    0    0    -1  
-$EndComp
 NoConn ~ 4050 9250
 NoConn ~ 4050 9450
 NoConn ~ 4050 9850
@@ -1551,8 +1460,6 @@ F 1 "GND" H 6750 2930 30  0001 C CNN
 	1    6750 3000
 	1    0    0    -1  
 $EndComp
-Text Label 8450 6300 2    58   ~ 0
-5V_IRScanner
 $Comp
 L C C9
 U 1 1 4FE84566
@@ -1688,10 +1595,6 @@ F 1 "MCP1700-3302E" H 3550 8400 58  0000 C CNN
 $EndComp
 Text Label 1900 2100 0    58   ~ 0
 BATT
-Text Label 11000 8700 1    58   ~ 0
-5V_Encoders
-Text Label 9100 8300 0    58   ~ 0
-5V_Encoders
 $Comp
 L GND #PWR060
 U 1 1 4FEAD6C9
@@ -1757,15 +1660,6 @@ Text Label 13800 4850 1    58   ~ 0
 A2
 Text Label 13650 4850 1    58   ~ 0
 A3
-$Comp
-L GND #PWR064
-U 1 1 4FF20AF1
-P 7000 1350
-F 0 "#PWR064" H 7000 1350 30  0001 C CNN
-F 1 "GND" H 7000 1280 30  0001 C CNN
-	1    7000 1350
-	1    0    0    -1  
-$EndComp
 Text Notes 9350 4600 0    58   ~ 0
 IR
 Connection ~ 3450 3050
@@ -1811,7 +1705,7 @@ Connection ~ 3100 1550
 Wire Wire Line
 	3100 1550 3100 1400
 Wire Wire Line
-	4350 1400 4350 1450
+	3350 1400 3350 1450
 Wire Notes Line
 	900  1000 8100 1000
 Wire Notes Line
@@ -1862,21 +1756,6 @@ Wire Wire Line
 	2050 8450 2100 8450
 Wire Wire Line
 	1650 8700 2100 8700
-Wire Wire Line
-	7400 1300 7400 1350
-Connection ~ 7300 1300
-Wire Wire Line
-	7200 1300 7200 1350
-Wire Wire Line
-	7300 1350 7300 1300
-Wire Wire Line
-	7100 1750 7100 1950
-Wire Wire Line
-	7200 1750 7200 1950
-Wire Wire Line
-	7300 1750 7300 1950
-Wire Wire Line
-	7400 1750 7400 1950
 Wire Notes Line
 	8100 3200 8100 1000
 Wire Wire Line
@@ -1890,12 +1769,12 @@ Wire Wire Line
 Wire Wire Line
 	6600 9650 6600 9700
 Wire Wire Line
-	3450 8900 3450 8800
+	3050 8900 3050 8800
 Wire Wire Line
-	3450 9200 3450 9400
+	3050 9200 3050 9400
 Wire Wire Line
-	3450 9350 3600 9350
-Connection ~ 3450 9350
+	3050 9350 3200 9350
+Connection ~ 3050 9350
 Wire Wire Line
 	3450 9650 3500 9650
 Wire Wire Line
@@ -2059,7 +1938,7 @@ Wire Wire Line
 Wire Wire Line
 	11750 9300 11850 9300
 Wire Wire Line
-	15700 4800 15700 4700
+	15700 5300 15700 5200
 Wire Wire Line
 	15700 6500 15700 6600
 Wire Wire Line
@@ -2305,7 +2184,7 @@ Wire Wire Line
 Wire Wire Line
 	11300 6350 11300 6300
 Wire Wire Line
-	8850 6300 10100 6300
+	8450 6300 10100 6300
 Connection ~ 9650 6300
 Wire Wire Line
 	11300 6300 10900 6300
@@ -2398,14 +2277,6 @@ Wire Wire Line
 	7100 9650 6600 9650
 Wire Wire Line
 	7100 8850 7100 8950
-Wire Wire Line
-	7200 1300 7400 1300
-Wire Wire Line
-	7100 1350 7100 1300
-Wire Wire Line
-	7100 1300 7000 1300
-Wire Wire Line
-	7000 1300 7000 1350
 Wire Notes Line
 	9200 4600 9300 4600
 Wire Notes Line
@@ -2457,8 +2328,132 @@ F 1 "GND" H 13800 6230 30  0001 C CNN
 	1    13800 6300
 	1    0    0    -1  
 $EndComp
-Text Label 15700 4700 0    58   ~ 0
+Text Label 15700 5200 0    58   ~ 0
 D5
-Text Notes 16800 550  0    58   ~ 0
-Put 5.1V Zener at A0
+$Comp
+L GND #PWR?
+U 1 1 50363DF5
+P 15700 6600
+F 0 "#PWR?" H 15700 6600 30  0001 C CNN
+F 1 "GND" H 15700 6530 30  0001 C CNN
+	1    15700 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 50363E13
+P 9100 8300
+F 0 "#PWR?" H 9100 8390 20  0001 C CNN
+F 1 "+5V" H 9100 8390 30  0000 C CNN
+	1    9100 8300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11000 8700 11000 8600
+Connection ~ 11000 8700
+$Comp
+L +5V #PWR?
+U 1 1 50363F91
+P 11000 8600
+F 0 "#PWR?" H 11000 8690 20  0001 C CNN
+F 1 "+5V" H 11000 8690 30  0000 C CNN
+	1    11000 8600
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 50363FA0
+P 7750 9400
+F 0 "#PWR?" H 7750 9490 20  0001 C CNN
+F 1 "+5V" H 7750 9490 30  0000 C CNN
+	1    7750 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 50363FAF
+P 3000 8100
+F 0 "#PWR?" H 3000 8190 20  0001 C CNN
+F 1 "+5V" H 3000 8190 30  0000 C CNN
+	1    3000 8100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 8100 3000 8150
+Wire Wire Line
+	3000 8150 3150 8150
+$Comp
+L +5V #PWR?
+U 1 1 503642A1
+P 11800 2050
+F 0 "#PWR?" H 11800 2140 20  0001 C CNN
+F 1 "+5V" H 11800 2140 30  0000 C CNN
+	1    11800 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 503642B0
+P 11700 3000
+F 0 "#PWR?" H 11700 3090 20  0001 C CNN
+F 1 "+5V" H 11700 3090 30  0000 C CNN
+	1    11700 3000
+	1    0    0    -1  
+$EndComp
+Text Label 3650 9150 0    58   ~ 0
+AT_DOUT_3V3
+Wire Wire Line
+	4050 9050 3650 9050
+Wire Wire Line
+	3650 9050 3650 9150
+Text Notes 7450 8400 0    58   ~ 0
+3.3V Serial
+$Comp
+L CONN_3 K?
+U 1 1 50364732
+P 8250 8650
+F 0 "K?" V 8200 8650 50  0000 C CNN
+F 1 "3V3 Serial" V 8300 8650 40  0000 C CNN
+	1    8250 8650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 8750 7800 8750
+Wire Wire Line
+	7800 8750 7800 8850
+$Comp
+L GND #PWR?
+U 1 1 503648B6
+P 7800 8850
+F 0 "#PWR?" H 7800 8850 30  0001 C CNN
+F 1 "GND" H 7800 8780 30  0001 C CNN
+	1    7800 8850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 8650 7800 8650
+Text Label 7800 8650 2    58   ~ 0
+AT_DIN
+Wire Wire Line
+	7900 8550 7800 8550
+Text Label 7800 8550 2    58   ~ 0
+AT_DOUT_3V3
+$Comp
+L ZENER D?
+U 1 1 50364E5E
+P 8450 1900
+F 0 "D?" H 8450 2000 50  0000 C CNN
+F 1 "5.1V" H 8450 1800 40  0000 C CNN
+	1    8450 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 50364E6D
+P 8450 2100
+F 0 "#PWR?" H 8450 2100 30  0001 C CNN
+F 1 "GND" H 8450 2030 30  0001 C CNN
+	1    8450 2100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

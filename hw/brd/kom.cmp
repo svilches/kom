@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2011-nov-30)-testing date = Sat 25 Aug 2012 04:36:41 PM EDT
+Cmp-Mod V01 Created by PcbNew date = Sat 25 Aug 2012 07:38:01 PM EDT
 
 BeginCmp
 TimeStamp = /4FF2011C;
@@ -186,21 +186,21 @@ BeginCmp
 TimeStamp = /4FE0E9A1;
 Reference = D8;
 ValeurCmp = IR_LD271;
-IdModule  = LED-5MM;
+IdModule  = LED5_RGB_OVAL;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE0E9C5;
 Reference = D9;
 ValeurCmp = IR_LD271;
-IdModule  = LED-5MM;
+IdModule  = LED5_RGB_OVAL;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE0E9CB;
 Reference = D10;
 ValeurCmp = IR_LD271;
-IdModule  = LED-5MM;
+IdModule  = LED5_RGB_OVAL;
 EndCmp
 
 BeginCmp

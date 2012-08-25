@@ -1,10 +1,10 @@
-Cmp-Mod V01 Created by CvPcb (2011-nov-30)-testing date = Sat 25 Aug 2012 04:26:17 PM EDT
+Cmp-Mod V01 Created by CvPcb (2011-nov-30)-testing date = Sat 25 Aug 2012 04:36:41 PM EDT
 
 BeginCmp
 TimeStamp = /4FF2011C;
 Reference = BC1;
 ValeurCmp = BC547;
-IdModule  = TO92-EBC;
+IdModule  = TO92;
 EndCmp
 
 BeginCmp
@@ -242,7 +242,7 @@ BeginCmp
 TimeStamp = /4FD6FCA4;
 Reference = IC2;
 ValeurCmp = 4067D;
-IdModule  = DIP-24__300;
+IdModule  = DIP-24__600;
 EndCmp
 
 BeginCmp

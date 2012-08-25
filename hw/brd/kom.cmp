@@ -1,10 +1,10 @@
-Cmp-Mod V01 Created by PcbNew date = Mon 09 Jul 2012 05:37:50 PM CEST
+Cmp-Mod V01 Created by CvPcb (2011-nov-30)-testing date = Sat 25 Aug 2012 04:26:17 PM EDT
 
 BeginCmp
 TimeStamp = /4FF2011C;
 Reference = BC1;
 ValeurCmp = BC547;
-IdModule  = TO92-123;
+IdModule  = TO92-EBC;
 EndCmp
 
 BeginCmp
@@ -204,6 +204,13 @@ IdModule  = LED-5MM;
 EndCmp
 
 BeginCmp
+TimeStamp = /50364E5E;
+Reference = D11;
+ValeurCmp = 5.1V;
+IdModule  = D4;
+EndCmp
+
+BeginCmp
 TimeStamp = /4FCE140E;
 Reference = F1;
 ValeurCmp = 1.1A_Fuse;
@@ -270,6 +277,13 @@ BeginCmp
 TimeStamp = /4FE26C98;
 Reference = JP1;
 ValeurCmp = ServoScanner;
+IdModule  = CON1X3;
+EndCmp
+
+BeginCmp
+TimeStamp = /50364732;
+Reference = K1;
+ValeurCmp = 3V3_Serial;
 IdModule  = CON1X3;
 EndCmp
 
@@ -556,28 +570,21 @@ EndCmp
 BeginCmp
 TimeStamp = /4FE22376;
 Reference = R16;
-ValeurCmp = 180;
+ValeurCmp = 220;
 IdModule  = R3-LARGE_PADS;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE22383;
 Reference = R17;
-ValeurCmp = 180;
+ValeurCmp = 220;
 IdModule  = R3-LARGE_PADS;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE22389;
 Reference = R18;
-ValeurCmp = 120;
-IdModule  = R3-LARGE_PADS;
-EndCmp
-
-BeginCmp
-TimeStamp = /4FE0E9EA;
-Reference = R19;
-ValeurCmp = 20;
+ValeurCmp = 180;
 IdModule  = R3-LARGE_PADS;
 EndCmp
 
@@ -593,13 +600,6 @@ TimeStamp = /4FD078E8;
 Reference = SW2;
 ValeurCmp = PwrOn;
 IdModule  = MICROSWITCH_SPST;
-EndCmp
-
-BeginCmp
-TimeStamp = /4FD321FA;
-Reference = SW3;
-ValeurCmp = PWR_Control;
-IdModule  = SWDIP4;
 EndCmp
 
 BeginCmp

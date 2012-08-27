@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = Sat 25 Aug 2012 07:38:01 PM EDT
+Cmp-Mod V01 Created by PcbNew date = Mon 27 Aug 2012 03:17:35 PM EDT
 
 BeginCmp
 TimeStamp = /4FF2011C;
@@ -186,21 +186,21 @@ BeginCmp
 TimeStamp = /4FE0E9A1;
 Reference = D8;
 ValeurCmp = IR_LD271;
-IdModule  = LED5_RGB_OVAL;
+IdModule  = LED-5MM-Ell;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE0E9C5;
 Reference = D9;
 ValeurCmp = IR_LD271;
-IdModule  = LED5_RGB_OVAL;
+IdModule  = LED-5MM-Ell;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE0E9CB;
 Reference = D10;
 ValeurCmp = IR_LD271;
-IdModule  = LED5_RGB_OVAL;
+IdModule  = LED-5MM-Ell;
 EndCmp
 
 BeginCmp
@@ -291,21 +291,21 @@ BeginCmp
 TimeStamp = /4FF21103;
 Reference = LED1;
 ValeurCmp = LED_RCGB;
-IdModule  = LED5_RGB_OVAL;
+IdModule  = LED-5MM-Ell;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FF21129;
 Reference = LED2;
 ValeurCmp = LED_RCGB;
-IdModule  = LED5_RGB_OVAL;
+IdModule  = LED-5MM-Ell;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FF2112F;
 Reference = LED3;
 ValeurCmp = LED_RCGB;
-IdModule  = LED5_RGB_OVAL;
+IdModule  = LED-5MM-Ell;
 EndCmp
 
 BeginCmp
